@@ -1,0 +1,5 @@
+label,value
+"Yes, legal",122
+"Yes, illegal",89
+"Yes, both legal and illegal",372
+No,179
