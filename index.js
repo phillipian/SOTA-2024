@@ -16,7 +16,7 @@ sota.sotaConfig.sections = [
       "#f0ffff",
     ],
     blurb:
-      "931 students responded - 81.0% of the student body participated in the survey. 35% of respondents have at least one immediate family member who is currently attending or has previously attended Andover."
+      "931 students responded - 81.0% of the student body participated in the survey. 35% of respondents have at least one immediate family member who is currently attending or has previously attended Andover.",
   },
   {
     slug: "politics",
@@ -101,9 +101,6 @@ sota.sotaConfig.sections = [
       "This school year, Andover changed its disciplinary process to the “Responses to Student Behaviors” process, and 68.6% of the student body understand the changes that have been implemented. The disciplinary offenses are now categorized into three levels — each with their respective consequences — 16.1% of all respondents believe that the new disciplinary system effectively responds to students who are caught breaking school rules. 64.0% of students think that the disciplinary system favors students of privileged backgrounds. When correlated with income, 88.9% of respondents whose net family income was less than $35,000 believe that the disciplinary system favors students of privileged backgrounds, while 57.7% of respondents whose net family income was greater than $1,000,000 believe that the disciplinary system favors students of privileged backgrounds.",
   },
 
-
-
-
   // {
   //   slug: "senior",
   //   name: "Senior Sota",
@@ -139,14 +136,13 @@ sota.sotaNavbar(
 
 // ONLINE
 window.onload = () => {
-  
-// -- GENERAL!! --- 
+  // -- GENERAL!! ---
 
   var margin = {
     top: 20,
     left: 30,
     bottom: 40,
-    right: 10
+    right: 10,
   };
 
   sota.bigNumber({
@@ -159,7 +155,7 @@ window.onload = () => {
 
   sota.bigNumber({
     section: "general",
-    number: "81.0%",
+    number: "74.0%",
     title: "",
     subtitle: "of the student body participated in this survey.",
   });
@@ -167,7 +163,7 @@ window.onload = () => {
   sota.pieChart({
     section: "general",
     dataFile: "assets/data/general/1-class",
-    totalResp: 929,
+    totalResp: 852,
     displayPercentage: true,
     sorted: false,
     // shapeFile: "assets/svgs/graduationcap",
@@ -177,8 +173,6 @@ window.onload = () => {
     subtitle: "Editor’s note: Two students did not select a class year.",
     // 2023!!
   });
-
-
 
   sota.pieChart({
     section: "general",
@@ -236,7 +230,7 @@ window.onload = () => {
     title: "Time at Andover",
     subtitle:
       "How long have you attended Andover? (e.g. if you are currently a two-year lower, answer “2 years”) If at any point you took a leave of absence, round to the nearest whole year.",
-      // 2023!!
+    // 2023!!
   });
 
   sota.barChart({
@@ -254,7 +248,7 @@ window.onload = () => {
     dataFile: "assets/data/general/region",
     sorted: false,
     title: "Region",
-    subtitle: "What region are you from?"
+    subtitle: "What region are you from?",
     // 2023
   });
 
@@ -263,7 +257,8 @@ window.onload = () => {
     dataFile: "assets/data/general/international-continent",
     sorted: false,
     title: "Continents",
-    subtitle: "If you are an international student, what continent are you from?"
+    subtitle:
+      "If you are an international student, what continent are you from?",
     // 2023
   });
 
@@ -281,7 +276,8 @@ window.onload = () => {
     dataFile: "assets/data/general/US-residential",
     sorted: false,
     title: "U.S. Residence",
-    subtitle: "If you live in the United States of America, are you a citizen and/or permanent resident of the U.S.?",
+    subtitle:
+      "If you live in the United States of America, are you a citizen and/or permanent resident of the U.S.?",
     // 2023!!
   });
 
@@ -291,7 +287,8 @@ window.onload = () => {
     totalResp: 928,
     displayPercentage: true,
     title: "Parent and Guardian Residence",
-    subtitle: "If you live in the United States of America, how many of your guardian(s) are citizens and/or permanent residents of the U.S.?"
+    subtitle:
+      "If you live in the United States of America, how many of your guardian(s) are citizens and/or permanent residents of the U.S.?",
     // 2023!!
   });
 
@@ -345,8 +342,6 @@ window.onload = () => {
     // 2023!!
   });
 
-
-
   sota.barChart({
     section: "general",
     dataFile: "assets/data/general/14-pronoun",
@@ -389,7 +384,6 @@ window.onload = () => {
     title: "What is your romantic orientation?",
     // 2023!!
   });
-
 
   sota.columnChart({
     section: "general",
@@ -438,8 +432,7 @@ window.onload = () => {
     totalResp: 923,
     displayPercentage: true,
     title: "Socioeconomic Status",
-    subtitle:
-      "What is your perceived socioeconomic status?",
+    subtitle: "What is your perceived socioeconomic status?",
     // 2023!!
   });
 
@@ -484,7 +477,7 @@ window.onload = () => {
     title: "Financial Aid",
     subtitle: "Are you on any form of financial aid?",
     // 2023!!
-  }); 
+  });
 
   sota.bigNumber({
     section: "general",
@@ -534,13 +527,9 @@ window.onload = () => {
     totalResp: 882,
     title: "INCARCERATION",
     subtitle: "Do you personally know someone who has been incarcerated?",
-    shapeFile: "assets/svgs/handcuff"
+    shapeFile: "assets/svgs/handcuff",
     // 2023!!
   });
-
-
-
-
 
   // --- POLITICS!! --
 
@@ -584,7 +573,6 @@ window.onload = () => {
     // 2023!
   });
 
-
   sota.pieChart({
     section: "politics",
     dataFile: "assets/data/politics/changing-beliefs",
@@ -609,7 +597,6 @@ window.onload = () => {
       "Whether respondents did or did not change beliefs by their political affiliations.",
     // 2023!
   });
-
 
   sota.pieChart({
     section: "politics",
@@ -710,7 +697,7 @@ window.onload = () => {
     showLegend: false,
     title: "Affirmative Action & Race",
     subtitle:
-      "Whether respondents support affirmative action in institutions compared to their race. Editor’s Note: Correlated statistics from respondents whose races are “Indigenous Peoples of the Americas” and “Native Hawaiian or Pacific Islander” have been removed in an effort to protect the complete anonymity of these respondents."
+      "Whether respondents support affirmative action in institutions compared to their race. Editor’s Note: Correlated statistics from respondents whose races are “Indigenous Peoples of the Americas” and “Native Hawaiian or Pacific Islander” have been removed in an effort to protect the complete anonymity of these respondents.",
     // 2023!
   });
 
@@ -723,14 +710,13 @@ window.onload = () => {
     // 2023!!
   });
 
-
   sota.barChart({
     section: "politics",
     dataFile: "assets/data/politics/32-reverse_racism",
     title: '"Reverse Racism"',
     subtitle:
       'Do you believe that white people can experience racism (colloquially known as "reverse racism")? ',
-      // 2023!!
+    // 2023!!
   });
 
   sota.stackedBarChart({
@@ -761,11 +747,11 @@ window.onload = () => {
     section: "politics",
     dataFile: "assets/data/politics/advocacy-women",
     title: "Women's Rights",
-    subtitle: "Do you support “the advocacy of women’s rights on the grounds of the equality of the sexes” (Oxford English Dictionary)?",
+    subtitle:
+      "Do you support “the advocacy of women’s rights on the grounds of the equality of the sexes” (Oxford English Dictionary)?",
     margin: margin,
     // 2023!!
   });
-
 
   sota.bigNumber({
     section: "politics",
@@ -825,13 +811,13 @@ window.onload = () => {
     dataFile: "assets/data/politics/abortionXgender",
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
-    displayPercentage:true,
+    displayPercentage: true,
     inputIsPercentage: true,
     showLegend: true,
     title: "Abortion & Gender",
     subtitle:
       "Whether respondents believe people should have the right to have an abortion correlated to their gender identity. Editor’s Note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary,” and “Other” gender identities have been removed in an effort to protect the complete anonymity of these respondents.",
-      // 2023!!
+    // 2023!!
   });
 
   sota.stackedBarChart({
@@ -839,12 +825,12 @@ window.onload = () => {
     dataFile: "assets/data/politics/prison_reformXincarceration",
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
-    displayPercentage:true,
+    displayPercentage: true,
     showLegend: true,
     title: "Prison System",
     subtitle:
       "Do you believe that the current prison system in the United States of America should be altered?",
-      // 2023!!
+    // 2023!!
   });
 
   sota.pieChart({
@@ -880,13 +866,13 @@ window.onload = () => {
     dataFile: "assets/data/politics/drugsXincarceration",
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
-    displayPercentage:true,
-    inputIsPercentage:true,
+    displayPercentage: true,
+    inputIsPercentage: true,
     showLegend: true,
     title: "Decriminalization of Drugs & Incarceration",
     subtitle:
       "Whether respondents believe drugs should be decriminalized compared to whether they know an incarcerated person.",
-      // 2023!!
+    // 2023!!
   });
 
   sota.customBarChart({
@@ -894,7 +880,7 @@ window.onload = () => {
     dataFile: "assets/data/politics/42-firearms",
     title: "Firearm Ownership",
     subtitle: "Does your family own firearms?",
-    shapeFile: "assets/svgs/gun"
+    shapeFile: "assets/svgs/gun",
     // 2023!!
   });
 
@@ -903,13 +889,13 @@ window.onload = () => {
     dataFile: "assets/data/politics/affiliationXguns",
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
-    displayPercentage:true,
-    inputIsPercentage:true,
+    displayPercentage: true,
+    inputIsPercentage: true,
     showLegend: true,
     title: "Firearms & Political Affiliation",
     subtitle:
       "Respondents who own firearms correlated with their political affiliation.",
-      // 2023!!
+    // 2023!!
   });
 
   // sota.bigNumber({
@@ -942,8 +928,6 @@ window.onload = () => {
   //     // 2022!!
   // });
 
-
-
   // sota.stackedBarChart({
   //   section: "politics",
   //   dataFile: "assets/data/politics/censorshipXpolitics",
@@ -955,9 +939,6 @@ window.onload = () => {
   //     "Percentage of respondents who answered “Yes” to self-censorship question sorted by political affiliation.",
   //     // 2022!!
   // });
-
-
-
 
   // sota.stackedBarChart({
   //   section: "politics",
@@ -978,11 +959,6 @@ window.onload = () => {
   //     title: "Top 5 News Sources"
 
   // });
-
-
-
-
-
 
   // sota.stackedColumnChart({
   //   section: "politics",
@@ -1011,12 +987,6 @@ window.onload = () => {
   //     "Editor’s Note: Correlated statistics from respondents who identify as agender, genderfluid, genderqueer, nonbinary, and other gender identities have been removed in an effort to protect the complete anonymity of these respondents.",
   //     // 2022!!
   // });
-
-
-
-
-
-
 
   // sota.stackedColumnChart({
   //   section: "politics",
@@ -1063,10 +1033,6 @@ window.onload = () => {
   //   // 2022!!
   // });
 
-
-
-
-
   // --- CAMPUS CULTURE!! ----
 
   sota.pieChart({
@@ -1075,7 +1041,7 @@ window.onload = () => {
     title: "ideological diversity",
     subtitle:
       "Do you think the school promotes ideological diversity in its selection of speakers?",
-      // 2023!!
+    // 2023!!
   });
 
   sota.stackedBarChart({
@@ -1087,8 +1053,9 @@ window.onload = () => {
     groupLabelStyle: "onBar",
     displayPercentage: true,
     title: "Ideological Diversity & Political Affiliation",
-    subtitle: "Respondents' opinions on whether Andover's speakers are diverse in ideologies correlated with their political affiliation.",
-        // 2023!!
+    subtitle:
+      "Respondents' opinions on whether Andover's speakers are diverse in ideologies correlated with their political affiliation.",
+    // 2023!!
   });
 
   sota.pieChart({
@@ -1108,8 +1075,9 @@ window.onload = () => {
     groupLabelStyle: "onBar",
     displayPercentage: true,
     title: "Anti-Racism & Class Year",
-    subtitle: "Respondents' opinions on whether Andover's anti-racism work is sufficient correlated with their class year.",
-        // 2023!!
+    subtitle:
+      "Respondents' opinions on whether Andover's anti-racism work is sufficient correlated with their class year.",
+    // 2023!!
   });
 
   sota.stackedBarChart({
@@ -1121,8 +1089,9 @@ window.onload = () => {
     groupLabelStyle: "onBar",
     displayPercentage: true,
     title: "Anti-Racism & Political Affiliation",
-    subtitle: "Respondents' opinions on whether Andover's anti-racism work is sufficient correlated with their political affiliation.",
-        // 2023!!
+    subtitle:
+      "Respondents' opinions on whether Andover's anti-racism work is sufficient correlated with their political affiliation.",
+    // 2023!!
   });
 
   sota.stackedBarChart({
@@ -1134,8 +1103,9 @@ window.onload = () => {
     groupLabelStyle: "onBar",
     displayPercentage: true,
     title: "Anti-Racism & Race",
-    subtitle: "Respondents' opinions on whether Andover's anti-racism work is sufficient correlated with their race.",
-        // 2023!!
+    subtitle:
+      "Respondents' opinions on whether Andover's anti-racism work is sufficient correlated with their race.",
+    // 2023!!
   });
 
   sota.pieChart({
@@ -1143,25 +1113,23 @@ window.onload = () => {
     dataFile: "assets/data/campus/130-indigenousday",
     title:
       'Do you think that Andover should have a "day on" for Indigenous People\'s Day?',
-      // 2023!!
+    // 2023!!
   });
 
   sota.pieChart({
     section: "campus",
     dataFile: "assets/data/campus/earthday",
 
-    title:
-      'Do you think that Andover should have a "day on" for Earth Day?',
-      // 2023!!
+    title: 'Do you think that Andover should have a "day on" for Earth Day?',
+    // 2023!!
   });
-
-
 
   sota.pieChart({
     section: "campus",
     dataFile: "assets/data/campus/132-glorifyathletics",
     sorted: false,
-    title: "Do you think that Andover prioritizes athletics (compared to music, art, robotics, etc.)?",
+    title:
+      "Do you think that Andover prioritizes athletics (compared to music, art, robotics, etc.)?",
     // 2023!!
   });
 
@@ -1174,8 +1142,9 @@ window.onload = () => {
     groupLabelStyle: "onBar",
     displayPercentage: true,
     title: "Glorifying Athletics & Varisity Athletes",
-    subtitle: "Respondents' opinions on whether Andover glorifies athletics correlated with whether they are a varsity athlete.",
-        // 2023!!
+    subtitle:
+      "Respondents' opinions on whether Andover glorifies athletics correlated with whether they are a varsity athlete.",
+    // 2023!!
   });
 
   sota.bigNumber({
@@ -1192,7 +1161,8 @@ window.onload = () => {
     dataFile: "assets/data/campus/hos-approval",
     sorted: false,
     title: "Head of School Approval",
-    subtitle: "Do you approve of the work the Head of School is doing for the students?",
+    subtitle:
+      "Do you approve of the work the Head of School is doing for the students?",
     // 2023!!
   });
 
@@ -1205,8 +1175,9 @@ window.onload = () => {
     groupLabelStyle: "onBar",
     displayPercentage: true,
     title: "Head of School Approval & Class Year",
-    subtitle: "Respondents' opinions on whether they support the work the Head of School is doing for the students correlated with their class year.",
-        // 2023!!
+    subtitle:
+      "Respondents' opinions on whether they support the work the Head of School is doing for the students correlated with their class year.",
+    // 2023!!
   });
 
   sota.pieChart({
@@ -1218,8 +1189,6 @@ window.onload = () => {
     // 2023!!
   });
 
-
-
   sota.pieChart({
     section: "campus",
     dataFile: "assets/data/campus/134-environment_impact",
@@ -1229,9 +1198,8 @@ window.onload = () => {
     margin: margin,
     subtitle:
       "Do you feel that environmental issues (global warming, water, and air pollution, etc.) directly impact your life?",
-      // 2023!!
+    // 2023!!
   });
-
 
   sota.pieChart({
     section: "campus",
@@ -1240,16 +1208,18 @@ window.onload = () => {
     title: "Climate change",
     subtitle:
       "Do you feel like Andover is doing enough to combat climate change?",
-      // 2023!!
+    // 2023!!
   });
 
   sota.pieChart({
-      section: "campus",
-      dataFile: "assets/data/campus/136-divestfossilfuel",
-      sorted: false,
-      title: "Do you believe that Andover should divest from fossil fuel companies?",
-      subtitle: "Divestment is the act of \"taking money away from where you have invested it\" (Oxford Dictionaries).",
-      // 2023!!
+    section: "campus",
+    dataFile: "assets/data/campus/136-divestfossilfuel",
+    sorted: false,
+    title:
+      "Do you believe that Andover should divest from fossil fuel companies?",
+    subtitle:
+      'Divestment is the act of "taking money away from where you have invested it" (Oxford Dictionaries).',
+    // 2023!!
   });
 
   sota.stackedBarChart({
@@ -1261,155 +1231,145 @@ window.onload = () => {
     groupLabelStyle: "onBar",
     displayPercentage: true,
     title: "Divestment & Political Affiliation",
-    subtitle: "Respondents' opinions on Andover divesting from fossil fuels correlated with their political affiliation.",
-        // 2023!!
+    subtitle:
+      "Respondents' opinions on Andover divesting from fossil fuels correlated with their political affiliation.",
+    // 2023!!
   });
 
-//   sota.stackedColumnChart({
-//     section: "campus",
-//     dataFile: "assets/data/politics/reverse_racismXrace",
-//     showLegend: true,
-//     groupLabelStyle: "onBar",
-//     labelStyle: "onBar",
-//     title: "Reverse racism by race",
-//     subtitle: "Whether or not respondents believe that white people can experience racism (colloquially known as reverse racism) by race.",
-//   });
+  //   sota.stackedColumnChart({
+  //     section: "campus",
+  //     dataFile: "assets/data/politics/reverse_racismXrace",
+  //     showLegend: true,
+  //     groupLabelStyle: "onBar",
+  //     labelStyle: "onBar",
+  //     title: "Reverse racism by race",
+  //     subtitle: "Whether or not respondents believe that white people can experience racism (colloquially known as reverse racism) by race.",
+  //   });
 
+  // //   sota.barChart({
+  // //     section: "campus",
+  // //     dataFile: "assets/data/campus/carbon_footprint",
+  // //     displayPercentage: true,
+  // //     title: "carbon footprints",
+  // //     subtitle:
+  // //       "How often do you make conscious decisions to decrease your carbon footprint? A carbon footprint is “a measure of the carbon emissions of a particular individual, organization, or community” (Oxford Dictionary).",
+  // //   });
 
+  //   sota.pieChart({
+  //     section: "campus",
+  //     dataFile: "assets/data/campus/134-environment_impact",
+  //     title:
+  //       "Do you feel that environmental issues (global warming, water, and air pollution, etc.) directly impact your life?",
+  //       // 2022!!
+  //   });
 
+  //   sota.stackedBarChart({
+  //     section: "campus",
+  //     dataFile: "assets/data/campus/divestXpolitical",
+  //     showLegend: true,
+  //     groupLabelStyle: "onBar",
+  //     labelStyle: "onBar",
+  //     title: "Fossil Fuels",
+  //     subtitle:
+  //       "Do you believe that Andover should divest from fossil fuel companies?",
+  //       // 2022!!
+  //   });
 
-// //   sota.barChart({
-// //     section: "campus",
-// //     dataFile: "assets/data/campus/carbon_footprint",
-// //     displayPercentage: true,
-// //     title: "carbon footprints",
-// //     subtitle:
-// //       "How often do you make conscious decisions to decrease your carbon footprint? A carbon footprint is “a measure of the carbon emissions of a particular individual, organization, or community” (Oxford Dictionary).",
-// //   });
+  //   sota.stackedBarChart({
+  //     section: "campus",
+  //     dataFile: "assets/data/campus/idea_diversityXpolitical",
+  //     showLegend: true,
+  //     groupLabelStyle: "onBar",
+  //     labelStyle: "onBar",
+  //     title: "ideological diversity by political affiliation",
+  //     subtitle:
+  //       "Do you think the school promotes ideological diversity in its selection of speakers?",
+  //       // 2022!!
+  //   });
 
-//   sota.pieChart({
-//     section: "campus",
-//     dataFile: "assets/data/campus/134-environment_impact",
-//     title:
-//       "Do you feel that environmental issues (global warming, water, and air pollution, etc.) directly impact your life?",
-//       // 2022!!
-//   });
+  //   sota.stackedBarChart({
+  //     section: "campus",
+  //     dataFile: "assets/data/campus/antiracismXrace",
+  //     showLegend: true,
+  //     groupLabelStyle: "onBar",
+  //     labelStyle: "onBar",
+  //     title: "anti-racist work by race",
+  //     subtitle: "Do you think Andover’s anti-racist work is sufficient?",
+  //     // 2022!!
+  //   });
 
+  //   sota.stackedColumnChart({
+  //     section: "campus",
+  //     dataFile: "assets/data/campus/antiracismXclass",
+  //     showLegend: true,
+  //     groupLabelStyle: "onBar",
+  //     labelStyle: "onBar",
+  //     title: "anti-racist work by class year",
+  //     subtitle: "Do you think Andover’s anti-racist work is sufficient?",
+  //     // 2022!!
+  //   });
 
+  // //   sota.stackedBarChart({
+  // //     section: "campus",
+  // //     dataFile: "assets/data/campus/antiracismtaskforce",
+  // //     showLegend: true,
+  // //     labelStyle: "onBar",
+  // //     title: "Anti-racism task force",
+  // //     subtitle:
+  // //       "Do you feel the creation of the Anti-Racism Task Force was a productive choice in making Andover a more racially equitable, inclusive, and just community?",
+  // //   });
 
-//   sota.stackedBarChart({
-//     section: "campus",
-//     dataFile: "assets/data/campus/divestXpolitical",
-//     showLegend: true,
-//     groupLabelStyle: "onBar",
-//     labelStyle: "onBar",
-//     title: "Fossil Fuels",
-//     subtitle:
-//       "Do you believe that Andover should divest from fossil fuel companies?",
-//       // 2022!!
-//   });
+  //   sota.pieChart({
+  //     section: "campus",
+  //     dataFile: "assets/data/campus/133-shuman",
+  //     title:
+  //       "Do you think that the Shuman Office of Admissions accurately presents the school?",
+  //       // 2022!!
+  //   });
 
+  //   sota.pieChart({
+  //     section: "campus",
+  //     dataFile: "assets/data/campus/139-supportive",
+  //     title: "Support from faculty",
+  //     subtitle:
+  //       "Which of the faculty/staff members in your life do you feel are supportive of a diverse range of students? Check all that apply.",
+  //       // 2022!!
 
-//   sota.stackedBarChart({
-//     section: "campus",
-//     dataFile: "assets/data/campus/idea_diversityXpolitical",
-//     showLegend: true,
-//     groupLabelStyle: "onBar",
-//     labelStyle: "onBar",
-//     title: "ideological diversity by political affiliation",
-//     subtitle:
-//       "Do you think the school promotes ideological diversity in its selection of speakers?",
-//       // 2022!!
-//   });
+  //   });
 
+  //   // sota.pieChart({
+  //   //     section: "campus",
+  //   //     dataFile: "assets/data/campus/combat_climate",
+  //   //     title: "Do you feel like Andover is doing enough to combat climate change?"
+  //   // });
 
+  //   // sota.stackedBarChart({
+  //   //     section: "campus",
+  //   //     dataFile: "assets/data/campus/antiracismXclass",
+  //   //     showLegend: true,
+  //   //     groupLabelStyle: "onBar",
+  //   //     labelStyle: "onBar",
+  //   //     title: "Do you feel the creation of the Anti-Racism Task Force was a productive choice in making Andover a more racially equitable, inclusive, and just community? x class "
+  //   //     });
 
-//   sota.stackedBarChart({
-//     section: "campus",
-//     dataFile: "assets/data/campus/antiracismXrace",
-//     showLegend: true,
-//     groupLabelStyle: "onBar",
-//     labelStyle: "onBar",
-//     title: "anti-racist work by race",
-//     subtitle: "Do you think Andover’s anti-racist work is sufficient?",
-//     // 2022!!
-//   });
-
-//   sota.stackedColumnChart({
-//     section: "campus",
-//     dataFile: "assets/data/campus/antiracismXclass",
-//     showLegend: true,
-//     groupLabelStyle: "onBar",
-//     labelStyle: "onBar",
-//     title: "anti-racist work by class year",
-//     subtitle: "Do you think Andover’s anti-racist work is sufficient?",
-//     // 2022!!
-//   });
-
-// //   sota.stackedBarChart({
-// //     section: "campus",
-// //     dataFile: "assets/data/campus/antiracismtaskforce",
-// //     showLegend: true,
-// //     labelStyle: "onBar",
-// //     title: "Anti-racism task force",
-// //     subtitle:
-// //       "Do you feel the creation of the Anti-Racism Task Force was a productive choice in making Andover a more racially equitable, inclusive, and just community?",
-// //   });
-
-
-
-
-
-//   sota.pieChart({
-//     section: "campus",
-//     dataFile: "assets/data/campus/133-shuman",
-//     title:
-//       "Do you think that the Shuman Office of Admissions accurately presents the school?",
-//       // 2022!!
-//   });
-
-//   sota.pieChart({
-//     section: "campus",
-//     dataFile: "assets/data/campus/139-supportive",
-//     title: "Support from faculty",
-//     subtitle:
-//       "Which of the faculty/staff members in your life do you feel are supportive of a diverse range of students? Check all that apply.",
-//       // 2022!!
-
-//   });
-
-//   // sota.pieChart({
-//   //     section: "campus",
-//   //     dataFile: "assets/data/campus/combat_climate",
-//   //     title: "Do you feel like Andover is doing enough to combat climate change?"
-//   // });
-
-//   // sota.stackedBarChart({
-//   //     section: "campus",
-//   //     dataFile: "assets/data/campus/antiracismXclass",
-//   //     showLegend: true,
-//   //     groupLabelStyle: "onBar",
-//   //     labelStyle: "onBar",
-//   //     title: "Do you feel the creation of the Anti-Racism Task Force was a productive choice in making Andover a more racially equitable, inclusive, and just community? x class "
-//   //     });
-
-//   sota.stackedBarChart({
-//     section: "campus",
-//     dataFile: "assets/data/campus/prioritizeXvarsity",
-//     showLegend: true,
-//     groupLabelStyle: "onBar",
-//     labelStyle: "onBar",
-//     title:
-//       "Do you think that Andover prioritizes athletics(compared to music, art, robotics, etc.)?",
-//       // 2022!!
-//   });
+  //   sota.stackedBarChart({
+  //     section: "campus",
+  //     dataFile: "assets/data/campus/prioritizeXvarsity",
+  //     showLegend: true,
+  //     groupLabelStyle: "onBar",
+  //     labelStyle: "onBar",
+  //     title:
+  //       "Do you think that Andover prioritizes athletics(compared to music, art, robotics, etc.)?",
+  //       // 2022!!
+  //   });
 
   // --- SCHOOL!! ---
   sota.bigNumber({
     section: "school",
     number: "5.41",
     title: "Overall Average GPA",
-    subtitle: "average rounded Winter Term GPA, a 0.06 increase from 2022 (last year).",
+    subtitle:
+      "average rounded Winter Term GPA, a 0.06 increase from 2022 (last year).",
     // 2023!!
   });
 
@@ -1428,15 +1388,18 @@ window.onload = () => {
     maxVal: 6.0,
     minVal: 5.0,
     title: "Average GPA Since 2018",
-    subtitle: "Editor's note: All GPA values above are from previous State of the Academy surveys.",
+    subtitle:
+      "Editor's note: All GPA values above are from previous State of the Academy surveys.",
     // 2023!!
   });
 
   sota.bigNumber({
     section: "school",
     number: "5.42",
-    title: "Respondents who indentified as a man or woman had the same average GPA of",
-    subtitle: "Editor’s note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary.” and “Other” have been removed in an effort to protect the complete anonymity of these respondents.",
+    title:
+      "Respondents who indentified as a man or woman had the same average GPA of",
+    subtitle:
+      "Editor’s note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary.” and “Other” have been removed in an effort to protect the complete anonymity of these respondents.",
     // 2023!!
   });
 
@@ -1449,7 +1412,7 @@ window.onload = () => {
     groupLabelStyle: "onBar",
     displayPercentage: true,
     title: "GPA and Sleep",
-      // 2023!!
+    // 2023!!
   });
 
   sota.multiLineGraph({
@@ -1459,7 +1422,7 @@ window.onload = () => {
     maxVal: 24,
     minWal: 0,
     title: "GPA and Varsity Athlete",
-      // 2023!!
+    // 2023!!
   });
 
   sota.barChart({
@@ -1482,14 +1445,15 @@ window.onload = () => {
     title: "Andover and College",
     subtitle:
       "Do you think attending Andover affects your chances of attending a selective college?",
-      // 2023!!
+    // 2023!!
   });
 
   sota.bigNumber({
     section: "school",
     number: "3.8",
     title: "Time Spent on Coursework",
-    subtitle: "average hours spent on coursework daily, a 1.9 hour decrease from 2022 (last year).",
+    subtitle:
+      "average hours spent on coursework daily, a 1.9 hour decrease from 2022 (last year).",
     // 2023!!
   });
 
@@ -1499,7 +1463,8 @@ window.onload = () => {
     minVal: 2,
     maxVal: 259,
     title: "Hours on coursework",
-    subtitle: "How many hours do you spend on coursework outside of class each day?",
+    subtitle:
+      "How many hours do you spend on coursework outside of class each day?",
     // 2023!
   });
 
@@ -1507,7 +1472,8 @@ window.onload = () => {
     section: "school",
     dataFile: "assets/data/school/114-department_disparity",
     title: "Disparity between teachers",
-    subtitle: "In which department(s), if any, is/are there an unreasonable grading disparity between teachers?",
+    subtitle:
+      "In which department(s), if any, is/are there an unreasonable grading disparity between teachers?",
     // 2023!!
   });
 
@@ -1518,7 +1484,7 @@ window.onload = () => {
     title: "Switching Teachers",
     subtitle:
       "Have you ever switched or attempted to switch teachers within the same course in order to attain a better grade?",
-      // 2023!!
+    // 2023!!
   });
 
   sota.pieChart({
@@ -1528,7 +1494,7 @@ window.onload = () => {
     title: "Student Leadership",
     subtitle:
       "Are you currently a student leader (prefect, proctor, DSM, EBI Senior, Cluster or School Co-President) on campus?",
-      // 2023!!
+    // 2023!!
   });
 
   sota.pieChart({
@@ -1536,10 +1502,9 @@ window.onload = () => {
     dataFile: "assets/data/school/leadership-positions",
     sorted: false,
     title: "Leadership Positions",
-    subtitle:
-      "How many leadership positions do you hold on campus?",
+    subtitle: "How many leadership positions do you hold on campus?",
     margin: margin,
-      // 2023!!
+    // 2023!!
   });
 
   sota.barChart({
@@ -1549,7 +1514,7 @@ window.onload = () => {
     title: "Extracurriculars",
     subtitle:
       "Do you participate in any extracurriculars because you think they will increase your chances of getting into a selective college?",
-      // 2023!!
+    // 2023!!
   });
 
   sota.barChart({
@@ -1557,7 +1522,8 @@ window.onload = () => {
     dataFile: "assets/data/school/120-leaving",
     showLegend: true,
     title: "Leaving Andover",
-    subtitle: "Have you ever considered leaving Andover permanently or temporarily?",
+    subtitle:
+      "Have you ever considered leaving Andover permanently or temporarily?",
     // 2023!!
   });
 
@@ -1572,7 +1538,7 @@ window.onload = () => {
     title: "Leaving Andover by Class Year",
     subtitle:
       "Have you ever considered leaving Andover permanently or temporarily?",
-      // 2023!!
+    // 2023!!
   });
 
   sota.pieChart({
@@ -1600,9 +1566,8 @@ window.onload = () => {
     dataFile: "assets/data/school/123-come_to_andover",
     title:
       "In retrospect, would you still make the decision to come to andover?",
-      // 2023!!
+    // 2023!!
   });
-
 
   sota.pieChart({
     section: "school",
@@ -1612,7 +1577,7 @@ window.onload = () => {
     title: "Andover and family",
     subtitle:
       "Has attending Andover affected your relationship with your family?",
-      // 2023!!
+    // 2023!!
   });
 
   sota.pieChart({
@@ -1621,10 +1586,9 @@ window.onload = () => {
     sorted: false,
     showLegend: true,
     title: "Learning Disabilities",
-    subtitle:
-      "Do you have a disability that affects your learning?",
+    subtitle: "Do you have a disability that affects your learning?",
     margin: margin,
-      // 2023!!
+    // 2023!!
   });
 
   sota.bigNumber({
@@ -1633,7 +1597,7 @@ window.onload = () => {
     title: "Learning Disability",
     subtitle:
       "of respondents have a disability/disorder/impairment that affects their learning.",
-      // 2023!!
+    // 2023!!
   });
 
   sota.pieChart({
@@ -1643,9 +1607,8 @@ window.onload = () => {
     showLegend: true,
     title: "Learning Accomodations",
     margin: margin,
-    subtitle:
-      "Do you currently have learning accommodations at Andover?",
-      // 2023!!
+    subtitle: "Do you currently have learning accommodations at Andover?",
+    // 2023!!
   });
 
   sota.pieChart({
@@ -1656,7 +1619,7 @@ window.onload = () => {
     title: "Andover Accomodations",
     subtitle:
       "Do you think Andover adequately accommodates students with disabilities that affect their learning?",
-      // 2023!!
+    // 2023!!
   });
 
   // sota.stackedBarChart({
@@ -1681,10 +1644,6 @@ window.onload = () => {
   //   // 2022!!
   // });
 
-
-
-
-
   // sota.lineGraph({
   //   section: "school",
   //   dataFile: "assets/data/school/gpa2017",
@@ -1696,8 +1655,6 @@ window.onload = () => {
   //     // 2022!!
   // });
 
-
-
   // sota.stackedColumnChart({
   //   section: "school",
   //   dataFile: "assets/data/school/collegeXclass",
@@ -1707,10 +1664,6 @@ window.onload = () => {
   //     // 2022!!
   // });
 
-
-
-
-
   // sota.bigNumber({
   //   section: "school",
   //   number: "26.2%",
@@ -1719,21 +1672,12 @@ window.onload = () => {
   //   // 2022!!
   // });
 
-
   // sota.pieChart({
   //   section: "school",
   //   dataFile: "assets/data/school/board_member",
   //   sorted: false,
   //   title: "Are you a board member of a club on campus?",
   // });
-
-
-
-
-
-
-
-
 
   // sota.pieChart({
   //   section: "school",
@@ -1744,7 +1688,6 @@ window.onload = () => {
   //     "Generally speaking, has attending Andover significantly affected your character?",
   // });
 
-
   // --- DISCIPLINE!! ---
 
   sota.bigNumber({
@@ -1754,7 +1697,7 @@ window.onload = () => {
     subtitle:
       "of respondents have commited a Level 3 violation without being caught.",
     margin: margin,
-      // 2023!!
+    // 2023!!
   });
 
   // sota.pieChart({
@@ -1772,10 +1715,10 @@ window.onload = () => {
     margin: margin,
     title:
       "Which of the following disciplinary consequences have you recieved?",
-      // 2023!!
+    // 2023!!
   });
 
- sota.stackedBarChart({
+  sota.stackedBarChart({
     section: "discipline",
     dataFile: "assets/data/discipline/systemXrecipients",
     sorted: false,
@@ -1786,7 +1729,7 @@ window.onload = () => {
     title: "Discipline System & Recipients",
     subtitle:
       "The effectiveness of the disciplinary system correlated with the respondents who have gone through the discipline system.",
-      // 2023!!
+    // 2023!!
   });
 
   sota.stackedBarChart({
@@ -1800,7 +1743,7 @@ window.onload = () => {
     title: "Discipline System & Residential Status",
     subtitle:
       "Respondents' residential statuses correlated with the discipline system.",
-      // 2023!!
+    // 2023!!
   });
 
   sota.barChart({
@@ -1811,7 +1754,7 @@ window.onload = () => {
     title: "Disciplinary System Effectiveness",
     subtitle:
       "Do you think that the new disciplinary system effectively responds to students who are caught breaking school rules?",
-      // 2023!!
+    // 2023!!
   });
 
   sota.pieChart({
@@ -1821,7 +1764,7 @@ window.onload = () => {
     title: "Privilege",
     subtitle:
       "Do you think that the school's disciplinary system favors students of privileged backgrounds?",
-      // 2023!!
+    // 2023!!
   });
 
   sota.stackedBarChart({
@@ -1835,7 +1778,7 @@ window.onload = () => {
     title: "Privilege & Discipline",
     subtitle:
       "Whether respondents believe the disciplinary process favors those from privileged backgrounds correlated with their income.",
-      // 2023!!
+    // 2023!!
   });
 
   // sota.stackedBarChart({
@@ -1863,7 +1806,7 @@ window.onload = () => {
     title: "Cheating",
     subtitle:
       "Have you ever cheated on any tests, quizzes, or in-class assessments while at Andover?",
-      // 2023!!
+    // 2023!!
   });
 
   // sota.bigNumber({
@@ -1890,7 +1833,7 @@ window.onload = () => {
     title: "Cheating by Class",
     subtitle:
       "Have you ever cheated on any tests, quizzes, or in-class assessments while at Andover?",
-      // 2023!!
+    // 2023!!
   });
 
   sota.stackedBarChart({
@@ -1904,7 +1847,7 @@ window.onload = () => {
     title: "Academic Integrity & Class Year",
     subtitle:
       "Whether respondents have committed academic integrity violations correlated with their class year.",
-      // 2023!!
+    // 2023!!
   });
 
   sota.barChart({
@@ -1928,7 +1871,7 @@ window.onload = () => {
     title: "Understanding the Process & Residential Status",
     subtitle:
       "Whether respondents understand the new disciplinary process correlated with their residential status.",
-      // 2023!!
+    // 2023!!
   });
 
   sota.stackedBarChart({
@@ -1942,7 +1885,7 @@ window.onload = () => {
     title: "Understanding the Process & Class Year",
     subtitle:
       "Whether respondents understand the new disciplinary process correlated with their class year.",
-      // 2023!!
+    // 2023!!
   });
   sota.pieChart({
     section: "discipline",
@@ -1952,7 +1895,7 @@ window.onload = () => {
     margin: margin,
     subtitle:
       "Have you ever committed a Level 3 violation without being caught? (Level 3 violations include, but are not limited to: selling or providing drugs/alcohol/nicotine, bullying, hazing, major destruction of property, sexual misconduct)",
-      // 2023!!
+    // 2023!!
   });
 
   sota.pieChart({
@@ -1963,9 +1906,8 @@ window.onload = () => {
     margin: margin,
     subtitle:
       "Have you ever had a room visit? — Visiting the dormitory room of or inviting an individual from outside your dormitory to your dorm room.",
-      // 2023!!
+    // 2023!!
   });
-
 
   // sota.stackedBarChart({
   //   section: "discipline",
@@ -1995,9 +1937,8 @@ window.onload = () => {
     totalResp: 757,
     displayPercentage: true,
     title: "Faculty Diversity",
-    subtitle:
-      "Do you think the faculty is lacking in diversity in...?",
-      // 2023!!
+    subtitle: "Do you think the faculty is lacking in diversity in...?",
+    // 2023!!
   });
 
   // sota.stackedBarChart({
@@ -2041,7 +1982,7 @@ window.onload = () => {
     title: "Social Divide",
     subtitle:
       "Do you feel like there is a social divide at Andover between students of different...?",
-      // 2023!!
+    // 2023!!
   });
 
   sota.stackedBarChart({
@@ -2053,8 +1994,9 @@ window.onload = () => {
     groupLabelStyle: "onBar",
     displayPercentage: true,
     title: "Social Divide Due to Socioeconomic Status & Socioeconomic Status",
-    subtitle: "Respondents' opinions on whether there is a social divide at Andover due to socioeconomic status correlated with their socioeconomic status.",
-        // 2023!!
+    subtitle:
+      "Respondents' opinions on whether there is a social divide at Andover due to socioeconomic status correlated with their socioeconomic status.",
+    // 2023!!
   });
 
   // sota.stackedBarChart({
@@ -2089,7 +2031,7 @@ window.onload = () => {
     title: "Discrimination",
     subtitle:
       "Have you ever felt discriminated against at Andover due to your...?",
-      // 2023!!
+    // 2023!!
   });
 
   sota.barChart({
@@ -2100,7 +2042,7 @@ window.onload = () => {
     title: "Faculty Support",
     subtitle:
       "Which of the faculty/staff members in your life do you feel are supportive of a diverse range of students?",
-      // 2023!!
+    // 2023!!
   });
 
   sota.barChart({
@@ -2111,7 +2053,7 @@ window.onload = () => {
     title: "Talking the Talk",
     subtitle:
       "Do you think that there are facets of identity that are not discussed enough at Andover?",
-      // 2023!!
+    // 2023!!
   });
 
   sota.barChart({
@@ -2122,7 +2064,7 @@ window.onload = () => {
     title: "Classroom",
     subtitle:
       "While at Andover, have any of the following aspects of your identity significantly and consistently affected your level of comfort in a classroom setting?",
-      // 2023!!
+    // 2023!!
   });
 
   sota.stackedBarChart({
@@ -2134,8 +2076,9 @@ window.onload = () => {
     groupLabelStyle: "onBar",
     displayPercentage: true,
     title: "Classroom Comfort & Race",
-    subtitle: "Editor’s Note: Correlated statistics from respondents whose races are “Indigenous People of the Americas” and “Native Hawaiian or Pacific Islander” have been removed in an effort to protect the complete anonymity of these respondents."
-      // 2023!!
+    subtitle:
+      "Editor’s Note: Correlated statistics from respondents whose races are “Indigenous People of the Americas” and “Native Hawaiian or Pacific Islander” have been removed in an effort to protect the complete anonymity of these respondents.",
+    // 2023!!
   });
 
   sota.stackedBarChart({
@@ -2147,8 +2090,9 @@ window.onload = () => {
     groupLabelStyle: "onBar",
     displayPercentage: true,
     title: "Classroom Comfort & Gender Identity",
-    subtitle: "Whether respondents feel gender identity is a factor in whether they are comfortable in a classroom correlated with their gender identity. Editor’s Note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary,” and “Other” gender identities have been removed in an effort to protect the complete anonymity of these respondents.",
-      // 2023!!
+    subtitle:
+      "Whether respondents feel gender identity is a factor in whether they are comfortable in a classroom correlated with their gender identity. Editor’s Note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary,” and “Other” gender identities have been removed in an effort to protect the complete anonymity of these respondents.",
+    // 2023!!
   });
 
   sota.pieChart({
@@ -2158,7 +2102,7 @@ window.onload = () => {
     title: "EBI Curriculum",
     subtitle:
       "Do you think the EBI curriculum at Andover is effective in helping students become better community members?",
-      // 2023!!
+    // 2023!!
   });
 
   sota.stackedBarChart({
@@ -2172,9 +2116,8 @@ window.onload = () => {
     title: "EBI Curriculum Effectiveness for each class",
     subtitle:
       "Do you think the EBI curriculum at Andover is effective in helping students become better community members?",
-      // 2023!!
+    // 2023!!
   });
-
 
   sota.barChart({
     section: "diversity",
@@ -2184,7 +2127,7 @@ window.onload = () => {
     title: "Leadership Positions",
     subtitle:
       "Do you think your capability to attain leadership positions at Andover is affected by your...?",
-      // 2023!!
+    // 2023!!
   });
 
   sota.stackedBarChart({
@@ -2196,8 +2139,9 @@ window.onload = () => {
     groupLabelStyle: "onBar",
     displayPercentage: true,
     title: "Leadership & Gender",
-    subtitle: "Respondents' opinions on whether gender limits their capacity to obtain leadership positions correlated with their gender. Editor’s note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary.” and “Other” have been removed in an effort to protect the complete anonymity of these respondents.",
-      // 2023!!
+    subtitle:
+      "Respondents' opinions on whether gender limits their capacity to obtain leadership positions correlated with their gender. Editor’s note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary.” and “Other” have been removed in an effort to protect the complete anonymity of these respondents.",
+    // 2023!!
   });
 
   sota.stackedBarChart({
@@ -2209,8 +2153,9 @@ window.onload = () => {
     groupLabelStyle: "onBar",
     displayPercentage: true,
     title: "Leadership & Race",
-    subtitle: "Respondents' opinions on whether race limits their capacity to obtain leadership positions correlated with their race. Editor’s Note: Correlated statistics from respondents whose races are “Indigenous People of the Americas” and “Native Hawaiian or Pacific Islander” have been removed in an effort to protect the complete anonymity of these respondents. ",
-      // 2023!!
+    subtitle:
+      "Respondents' opinions on whether race limits their capacity to obtain leadership positions correlated with their race. Editor’s Note: Correlated statistics from respondents whose races are “Indigenous People of the Americas” and “Native Hawaiian or Pacific Islander” have been removed in an effort to protect the complete anonymity of these respondents. ",
+    // 2023!!
   });
 
   sota.pieChart({
@@ -2219,7 +2164,7 @@ window.onload = () => {
     title: "Day Students",
     subtitle:
       "Do you think day students are able to integrate enough with boarding students at Andover?",
-      // 2023!!
+    // 2023!!
   });
 
   sota.stackedBarChart({
@@ -2231,8 +2176,9 @@ window.onload = () => {
     groupLabelStyle: "onBar",
     displayPercentage: true,
     title: "Residential Status & Day Student Integration",
-    subtitle: "Respondents' opinions on whether day students integrate into campus correlated with their residential status.",
-      // 2023!!
+    subtitle:
+      "Respondents' opinions on whether day students integrate into campus correlated with their residential status.",
+    // 2023!!
   });
 
   sota.stackedBarChart({
@@ -2246,9 +2192,8 @@ window.onload = () => {
     title: "Day Student Integration by student status",
     subtitle:
       "Do you think day students are able to integrate enough with boarding students at Andover this year?",
-      // 2023!!
+    // 2023!!
   });
-
 
   // ------ SEX -------
 
@@ -2272,7 +2217,7 @@ window.onload = () => {
     title: "Sexual Activity by Grade",
     subtitle:
       "Respondents who have participated in sexual activity sorted by grade.",
-      // 2023!!
+    // 2023!!
   });
 
   sota.barChart({
@@ -2301,7 +2246,7 @@ window.onload = () => {
     // 2023!!
   });
 
- sota.stackedBarChart({
+  sota.stackedBarChart({
     section: "sex",
     dataFile: "assets/data/sex/hookupXgender",
     sorted: false,
@@ -2312,7 +2257,7 @@ window.onload = () => {
     title: "Hook-Up Culture & Gender Identity",
     subtitle:
       "Whether respondents believe there is a hook-up culture at Andover by their gender identity. Editor’s note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary.” and “Other” have been removed in an effort to protect the complete anonymity of these respondents.",
-      // 2023!!
+    // 2023!!
   });
 
   sota.bigNumber({
@@ -2381,7 +2326,7 @@ window.onload = () => {
     // 2023!!
   });
 
- sota.stackedBarChart({
+  sota.stackedBarChart({
     section: "sex",
     dataFile: "assets/data/sex/rapecultureXgender",
     sorted: false,
@@ -2392,7 +2337,7 @@ window.onload = () => {
     title: "Rape Culture & Gender Identity",
     subtitle:
       "Whether respondents believe there is a rape culture at Andover by their gender identity. Editor’s note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary.” and “Other” have been removed in an effort to protect the complete anonymity of these respondents.",
-      // 2023!!
+    // 2023!!
   });
 
   sota.pieChart({
@@ -2408,8 +2353,7 @@ window.onload = () => {
     section: "sex",
     dataFile: "assets/data/sex/79-use_protection",
     displayPercentage: true,
-    title:
-      "Do you use protection while engaging in sexual activity?",
+    title: "Do you use protection while engaging in sexual activity?",
     // 2023!!
   });
 
@@ -2468,7 +2412,7 @@ window.onload = () => {
     // 2023!!
   });
 
-   sota.stackedBarChart({
+  sota.stackedBarChart({
     section: "sex",
     dataFile: "assets/data/sex/masturbateXgender",
     sorted: false,
@@ -2479,7 +2423,7 @@ window.onload = () => {
     title: "Talking about Masturbation & Gender Identity",
     subtitle:
       "Whether respondents feel comfortable telling their friends they masturbate by their gender identity. Editor’s note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary.” and “Other” have been removed in an effort to protect the complete anonymity of these respondents.",
-      // 2023!!
+    // 2023!!
   });
 
   sota.barChart({
@@ -2573,12 +2517,12 @@ window.onload = () => {
     showLegend: true,
     labelStyle: "onBar",
     title: "Sex Under the Influence",
-    subtitle: "Have you ever engaged in sexual activity while under the influence of drugs or alcohol?",
+    subtitle:
+      "Have you ever engaged in sexual activity while under the influence of drugs or alcohol?",
     // 2023!!
   });
 
-
-   sota.stackedBarChart({
+  sota.stackedBarChart({
     section: "sex",
     dataFile: "assets/data/sex/influenceXconsumption",
     sorted: false,
@@ -2587,8 +2531,9 @@ window.onload = () => {
     groupLabelStyle: "onBar",
     displayPercentage: true,
     title: "Sex Under the Influence & Substance Consumption",
-    subtitle: "Whether respondents have had sex under the influence correlated with substance consumption.",
-          // 2023!!
+    subtitle:
+      "Whether respondents have had sex under the influence correlated with substance consumption.",
+    // 2023!!
   });
 
   // sota.groupedBarChart({
@@ -2615,8 +2560,6 @@ window.onload = () => {
   //   // 2022!!
   // });
 
-
-
   // sota.stackedBarChart({
   //   section: "sex",
   //   dataFile: "assets/data/sex/rapecultureXgenderid",
@@ -2625,13 +2568,6 @@ window.onload = () => {
   //   title: "Rape culture and gender identity",
   //   // 2022!!
   // });
-
-
-
-
-
-
-
 
   // sota.bigNumber({
   //   section: "sex",
@@ -2651,7 +2587,6 @@ window.onload = () => {
   //   // 2022!!
   // });
 
-
   // --- DRUGS AND ALCOHOL!!! ---
 
   sota.barChart({
@@ -2664,7 +2599,7 @@ window.onload = () => {
     // 2023!!
   });
 
-   sota.stackedBarChart({
+  sota.stackedBarChart({
     section: "drugs",
     dataFile: "assets/data/drugs/normalizationXuse",
     sorted: false,
@@ -2674,8 +2609,9 @@ window.onload = () => {
     displayPercentage: true,
     inputIsPercentage: true,
     title: "Normalization of Drug Culture & Substance Use",
-    subtitle: "Whether respondents believe drug culture has been normalized at Andover correlated with substance use.",
-          // 2023!!
+    subtitle:
+      "Whether respondents believe drug culture has been normalized at Andover correlated with substance use.",
+    // 2023!!
   });
 
   sota.pieChart({
@@ -2686,16 +2622,15 @@ window.onload = () => {
     title: "e-cigarette",
     subtitle:
       "Have you ever used an e-cigarette or vaped a nicotine-based product?",
-        // 2023!!
+    // 2023!!
   });
 
   sota.bigNumber({
     section: "drugs",
     number: "33.0%",
     title: "nicotine use",
-    subtitle:
-      "of respondents have used a nicotine-based product.",
-      // 2023!!
+    subtitle: "of respondents have used a nicotine-based product.",
+    // 2023!!
   });
 
   sota.barChart({
@@ -2716,7 +2651,7 @@ window.onload = () => {
     title: "tobacco",
     subtitle:
       "Have you ever used any tobacco products (e.g. dipping and chewing tobacco, cigarettes, etc.)?",
-      // 2023!!
+    // 2023!!
   });
 
   // sota.stackedBarChart({
@@ -2737,7 +2672,7 @@ window.onload = () => {
     title: "Drug habits",
     subtitle:
       "How often do you consume recreational drugs or alcohol on campus?",
-      // 2023!!
+    // 2023!!
   });
 
   sota.bigNumber({
@@ -2758,8 +2693,9 @@ window.onload = () => {
     inputIsPercentage: true,
     displayPercentage: true,
     title: "Student Leadership & Alcohol Use",
-    subtitle: "How respondents who are student leaders are correlated with alcohol use.",
-        // 2023!!
+    subtitle:
+      "How respondents who are student leaders are correlated with alcohol use.",
+    // 2023!!
   });
 
   sota.stackedBarChart({
@@ -2773,7 +2709,7 @@ window.onload = () => {
     displayPercentage: true,
     title: "Cluster & Alcohol Use",
     subtitle: "Alcohol use by students by cluster.",
-        // 2023!!
+    // 2023!!
   });
 
   sota.stackedBarChart({
@@ -2787,7 +2723,7 @@ window.onload = () => {
     displayPercentage: true,
     title: "Income & Alcohol Use",
     subtitle: "Alcohol use by students correlated with their household income.",
-        // 2023!!
+    // 2023!!
   });
 
   sota.bigNumber({
@@ -2796,7 +2732,7 @@ window.onload = () => {
     title: "normalization of drugs and alcohol",
     subtitle:
       "of respondents believe that the use of recreational drugs or alcohol is normalized at Andover.",
-  });// 2023!!
+  }); // 2023!!
 
   // sota.pieChart({
   //     section:"drugs",
@@ -2812,7 +2748,7 @@ window.onload = () => {
     title: "drugs and friendships",
     title:
       "Do you think that recreational drug or alcohol use significantly influences your friendships at Andover?",
-      // 2023!!
+    // 2023!!
   });
 
   // sota.pieChart({
@@ -2833,10 +2769,10 @@ window.onload = () => {
     margin: margin,
     subtitle:
       "Have you ever used pharmaceutical drugs in the hopes of enhancing academic performance (i.e. “study drugs”) during your time at Andover?",
-      // 2023!!
+    // 2023!!
   });
 
-   sota.stackedBarChart({
+  sota.stackedBarChart({
     section: "drugs",
     dataFile: "assets/data/drugs/studydrugsXgpa",
     sorted: false,
@@ -2846,8 +2782,9 @@ window.onload = () => {
     inputIsPercentage: true,
     displayPercentage: true,
     title: "Use of Study Drugs & GPA",
-    subtitle: "Whether respondents use study drugs correlated with their GPA. Editor's Note: Only data from the GPA range of 5.0 - 6.0 is used.",
-        // 2023!!
+    subtitle:
+      "Whether respondents use study drugs correlated with their GPA. Editor's Note: Only data from the GPA range of 5.0 - 6.0 is used.",
+    // 2023!!
   });
   // sota.stackedBarChart({
   //   section: "drugs",
@@ -2887,10 +2824,10 @@ window.onload = () => {
     title: "peer pressure",
     subtitle:
       "Have you ever felt pressured by peers to consume recreational drugs or alcohol on campus?",
-      // 2023!!
+    // 2023!!
   });
 
-   sota.stackedBarChart({
+  sota.stackedBarChart({
     section: "drugs",
     dataFile: "assets/data/drugs/pressureXdrugs",
     sorted: false,
@@ -2900,8 +2837,9 @@ window.onload = () => {
     inputIsPercentage: true,
     displayPercentage: true,
     title: "Pressure & Drug Use",
-    subtitle: "Whether respondents feel pressured to participate in drug use correlated with drug use.",
-        // 2023!!
+    subtitle:
+      "Whether respondents feel pressured to participate in drug use correlated with drug use.",
+    // 2023!!
   });
 
   sota.pieChart({
@@ -2913,7 +2851,7 @@ window.onload = () => {
 
     subtitle:
       "Have you ever sold someone recreational drugs, alcohol, or your prescription medication?",
-      // 2023!!
+    // 2023!!
   });
 
   sota.barChart({
@@ -2924,7 +2862,7 @@ window.onload = () => {
     title: "location",
     subtitle:
       "In which of the following settings at Andover have you been under the influence of recreational drugs or alcohol?",
-      // 2023!!
+    // 2023!!
   });
 
   sota.pieChart({
@@ -2933,12 +2871,11 @@ window.onload = () => {
     displayPercentage: true,
     title: "Fake I.D.",
     margin: margin,
-    subtitle:
-      "Have you ever purchased or do you own a fake ID?",
-      // 2023!!
-    });
+    subtitle: "Have you ever purchased or do you own a fake ID?",
+    // 2023!!
+  });
 
-   sota.stackedBarChart({
+  sota.stackedBarChart({
     section: "drugs",
     dataFile: "assets/data/drugs/fakeidXalcohol",
     sorted: false,
@@ -2948,8 +2885,9 @@ window.onload = () => {
     inputIsPercentage: true,
     displayPercentage: true,
     title: "Fake I.D. & Alcohol Use",
-    subtitle: "Whether respondents have fake I.D.'s correlated with alcohol use",
-        // 2023!!
+    subtitle:
+      "Whether respondents have fake I.D.'s correlated with alcohol use",
+    // 2023!!
   });
 
   sota.pieChart({
@@ -2960,8 +2898,8 @@ window.onload = () => {
     margin: margin,
     subtitle:
       "Sanctuary: provided with a means of accessing support in situations where alcohol, drugs, tobacco, and/or nicotine are involved WITHOUT disciplinary consequences (The Blue Book)",
-      // 2023!!
-    });
+    // 2023!!
+  });
 
   sota.stackedBarChart({
     section: "drugs",
@@ -2969,9 +2907,8 @@ window.onload = () => {
     showLegend: true,
     labelStyle: "onBar",
     title: "Santuary Policy",
-    subtitle:
-      "Have you ever sanctuaried someone else?",
-      // 2023!!
+    subtitle: "Have you ever sanctuaried someone else?",
+    // 2023!!
   });
 
   // ----- WELLNESS!! <3 ------
@@ -3030,14 +2967,15 @@ window.onload = () => {
     // 2023!
   });
 
- sota.stackedBarChart({
+  sota.stackedBarChart({
     section: "wellness",
     dataFile: "assets/data/wellness/neurodivergence",
     showLegend: true,
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
     title: "neurodiversity",
-    subtitle: "Do you consider yourself neurodivergent? — “Having or relating to a type of brain that is often considered as different from what is usual” (Cambridge English Dictionary)",
+    subtitle:
+      "Do you consider yourself neurodivergent? — “Having or relating to a type of brain that is often considered as different from what is usual” (Cambridge English Dictionary)",
     // 2023!!
   });
 
@@ -3049,7 +2987,7 @@ window.onload = () => {
     // 2023!!
   });
 
- sota.pieChart({
+  sota.pieChart({
     section: "wellness",
     dataFile: "assets/data/wellness/bullied-hazed",
     showLegend: true,
@@ -3132,7 +3070,7 @@ window.onload = () => {
     // 2023!!
   });
 
- sota.pieChart({
+  sota.pieChart({
     section: "wellness",
     dataFile: "assets/data/wellness/selfharm",
     showLegend: true,
@@ -3140,7 +3078,8 @@ window.onload = () => {
     groupLabelStyle: "onBar",
     sorted: false,
     title: "Self Harm",
-    subtitle: "Have you ever engaged, or do you currently engage, in self-harm?",
+    subtitle:
+      "Have you ever engaged, or do you currently engage, in self-harm?",
     // 2023!!
   });
 
@@ -3307,8 +3246,7 @@ window.onload = () => {
     dataFile: "assets/data/wellness/isolation",
     title: "Lonely & Isolated",
     sorted: false,
-    subtitle:
-      "How often do you feel lonely or isolated?",
+    subtitle: "How often do you feel lonely or isolated?",
     margin: margin,
     // 2023!!
   });
@@ -3347,10 +3285,6 @@ window.onload = () => {
   //   // 2022!!
   // });
 
-
-
-
-
   // sota.bigNumber({
   //   section: "wellness",
   //   title: "Percentage of students who have tested positive for Covid-19",
@@ -3359,8 +3293,6 @@ window.onload = () => {
   //     "Editor's Note: This number reflects the number of students who have tested for Covid-19 when the survey was completed, or between April 8, 2022 and April 20, 2022",
   //   // 2022!!
   // });
-
-
 
   // sota.stackedBarChart({
   //   section: "wellness",
@@ -3386,10 +3318,6 @@ window.onload = () => {
   //   // 2022!!
   // });
 
-
-
-
-
   // sota.stackedBarChart({
   //   section: "wellness",
   //   dataFile: "assets/data/wellness/happyXgpa",
@@ -3409,10 +3337,6 @@ window.onload = () => {
   //     "of students feel as though they have an adequate mental and/or emotional support system on campus.",
   //   // 2022!!
   // });
-
-
-
-
 
   // sota.barChart({
   //   section: "wellness",
@@ -3444,20 +3368,6 @@ window.onload = () => {
   //   title: "skipping meals",
   //   // 2022!!
   // });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   // // ---- SENIOR!!! -----
 
