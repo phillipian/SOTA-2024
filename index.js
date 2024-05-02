@@ -155,7 +155,7 @@ window.onload = () => {
 
   sota.bigNumber({
     section: "general",
-    number: "74.0%",
+    number: "74.4%",
     title: "",
     subtitle: "of the student body participated in this survey.",
   });
