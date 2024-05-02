@@ -170,7 +170,7 @@ window.onload = () => {
     // shapeFile: "assets/svgs/graduationcap",
     // shapeHeight: 100,
     title: "WHAT CLASS ARE YOU IN?",
-    subtitle: "Editor’s note: Two students did not select a class year.",
+    subtitle: "Editor’s note: Seven students did not select a class year.",
     // 2023!!
   });
 
@@ -225,7 +225,7 @@ window.onload = () => {
   sota.barChart({
     section: "general",
     dataFile: "assets/data/general/time-at-andover-general",
-    totalResp: 930,
+    totalResp: 851,
     displayPercentage: true,
     title: "Time at Andover",
     subtitle:
@@ -236,7 +236,7 @@ window.onload = () => {
   sota.barChart({
     section: "general",
     dataFile: "assets/data/general/repeat-grade",
-    totalResp: 930,
+    totalResp: 851,
     displayPercentage: true,
     title: "Repeat Grade",
     subtitle: "Have you repeated a grade at Andover?",
@@ -284,7 +284,7 @@ window.onload = () => {
   sota.barChart({
     section: "general",
     dataFile: "assets/data/general/guardian-residence",
-    totalResp: 928,
+    totalResp: 837,
     displayPercentage: true,
     title: "Parent and Guardian Residence",
     subtitle:
@@ -295,7 +295,7 @@ window.onload = () => {
   sota.barChart({
     section: "general",
     dataFile: "assets/data/general/9-parents_college",
-    totalResp: 927,
+    totalResp: 853,
     displayPercentage: true,
     title: "HOW MANY OF YOUR PARENTS GRADUATED FROM COLLEGE?",
     // 2023!!
