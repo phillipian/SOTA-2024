@@ -301,9 +301,19 @@ window.onload = () => {
     // 2023!!
   });
 
+  sota.barChart({
+    section: "general",
+    dataFile: "assets/data/general/11-familialsituation",
+    totalResp: 849,
+    displayPercentage: true,
+    title: "Which of these describe your familial situation?",
+    // 2024!!
+  });
+
   sota.bigNumber({
     section: "general",
-    number: "34.9%",
+    dataFile: "assets/data/general/12-legacy",
+    number: "37.21%",
     title: "Legacy",
     subtitle:
       "of respondents have at least one immediate family member who is currently attending or has previously attended Andover.",
@@ -326,8 +336,8 @@ window.onload = () => {
 
   sota.barChart({
     section: "general",
-    dataFile: "assets/data/general/12-sex",
-    totalResp: 929,
+    dataFile: "assets/data/general/13-sex",
+    totalResp: 854,
     displayPercentage: true,
     title: "WHAT IS YOUR SEX?",
     // 2023!!
@@ -335,8 +345,8 @@ window.onload = () => {
 
   sota.barChart({
     section: "general",
-    dataFile: "assets/data/general/13-gender",
-    totalResp: 944,
+    dataFile: "assets/data/general/14-gender",
+    totalResp: 854,
     displayPercentage: true,
     title: "WHAT IS YOUR GENDER IDENTITY?",
     // 2023!!
@@ -344,8 +354,8 @@ window.onload = () => {
 
   sota.barChart({
     section: "general",
-    dataFile: "assets/data/general/14-pronoun",
-    totalResp: 924,
+    dataFile: "assets/data/general/15-pronoun",
+    totalResp: 853,
     displayPercentage: true,
     title: "What are your preferred gender pronouns?",
     subtitle:
@@ -355,8 +365,8 @@ window.onload = () => {
 
   sota.barChart({
     section: "general",
-    dataFile: "assets/data/general/15-sexual_orientation",
-    totalResp: 924,
+    dataFile: "assets/data/general/16-sexual_orientation",
+    totalResp: 851,
     displayPercentage: true,
     title: "What is your sexual orientation?",
     // 2023!!
@@ -378,8 +388,8 @@ window.onload = () => {
 
   sota.barChart({
     section: "general",
-    dataFile: "assets/data/general/16-romantic_orientation",
-    totalResp: 922,
+    dataFile: "assets/data/general/17-romantic_orientation",
+    totalResp: 850,
     displayPercentage: true,
     title: "What is your romantic orientation?",
     // 2023!!
@@ -387,8 +397,8 @@ window.onload = () => {
 
   sota.columnChart({
     section: "general",
-    dataFile: "assets/data/general/17-race",
-    totalResp: 926,
+    dataFile: "assets/data/general/18-race",
+    totalResp: 850,
     title: "What is your race?",
     subtitle:
       "Editor’s Note: Respondents were given the option to select more than one answer if applicable.",
@@ -397,8 +407,8 @@ window.onload = () => {
 
   sota.barChart({
     section: "general",
-    dataFile: "assets/data/general/18-ethnicity",
-    totalResp: 922,
+    dataFile: "assets/data/general/19-ethnicity",
+    totalResp: 847,
     title: "What is your ethnicity?",
     subtitle:
       "Editor’s Note: Respondents were given the option to select more than one answer if applicable.",
@@ -417,8 +427,8 @@ window.onload = () => {
 
   sota.barChart({
     section: "general",
-    dataFile: "assets/data/general/19-religion",
-    totalResp: 924,
+    dataFile: "assets/data/general/20-religion",
+    totalResp: 850,
     displayPercentage: true,
     title: "With which religion/faith system do you currently identify with?",
     subtitle:
@@ -428,8 +438,8 @@ window.onload = () => {
 
   sota.barChart({
     section: "general",
-    dataFile: "assets/data/general/perceived-socioeconomic",
-    totalResp: 923,
+    dataFile: "assets/data/general/21-perceived-socioeconomic",
+    totalResp: 844,
     displayPercentage: true,
     title: "Socioeconomic Status",
     subtitle: "What is your perceived socioeconomic status?",
@@ -438,8 +448,8 @@ window.onload = () => {
 
   sota.pieChart({
     section: "general",
-    dataFile: "assets/data/general/21-income",
-    totalResp: 921,
+    dataFile: "assets/data/general/22-income",
+    totalResp: 843,
     sorted: false,
     title: "Net Income",
     subtitle: "What is your net family income?",
@@ -473,7 +483,7 @@ window.onload = () => {
   sota.columnChart({
     section: "general",
     dataFile: "assets/data/general/22-financial_aid",
-    totalResp: 928,
+    totalResp: 852,
     title: "Financial Aid",
     subtitle: "Are you on any form of financial aid?",
     // 2023!!
