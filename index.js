@@ -2926,7 +2926,7 @@ window.onload = () => {
   sota.bigNumber({
     section: "wellness",
     title: "sleep",
-    number: "6.80",
+    number: "6.94",
     subtitle: "average hours of sleep per night of an Andover student.",
     // 2023!!
   });
@@ -2972,7 +2972,7 @@ window.onload = () => {
   sota.bigNumber({
     section: "wellness",
     title: "neurodivergence",
-    number: "175",
+    number: "144",
     subtitle: "respondents consider themselves neurodivergent.",
     // 2023!
   });
@@ -3235,7 +3235,7 @@ window.onload = () => {
     section: "wellness",
     dataFile: "assets/data/wellness/67-support_system",
     displayPercentage: true,
-    totalResp: 856,
+    totalResp: 765,
     title: "support systems",
     subtitle: "What is your mental and/or emotional support system on campus?",
     // 2023!!
