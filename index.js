@@ -1702,7 +1702,7 @@ window.onload = () => {
 
   sota.bigNumber({
     section: "discipline",
-    number: "10.8%",
+    number: "9.97%",
     title: "Level 3 Violation",
     subtitle:
       "of respondents have commited a Level 3 violation without being caught.",
@@ -1721,7 +1721,7 @@ window.onload = () => {
   sota.columnChart({
     section: "discipline",
     dataFile: "assets/data/discipline/149-consequences",
-    totalResp: 759,
+    totalResp: 690,
     margin: margin,
     title:
       "Which of the following disciplinary consequences have you recieved?",
@@ -1759,7 +1759,7 @@ window.onload = () => {
   sota.barChart({
     section: "discipline",
     dataFile: "assets/data/discipline/effectiveXconsequences",
-    totalResp: 758,
+    totalResp: 689,
     displayPercentage: true,
     title: "Disciplinary System Effectiveness",
     subtitle:
@@ -1863,7 +1863,7 @@ window.onload = () => {
   sota.barChart({
     section: "discipline",
     dataFile: "assets/data/discipline/147-understand_processes",
-    totalResp: 763,
+    totalResp: 691,
     displayPercentage: true,
     title: "Student Understanding",
     subtitle: "Do you understand the new Response to Student Behavior process?",
