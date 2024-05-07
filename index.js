@@ -1051,7 +1051,7 @@ window.onload = () => {
     title: "ideological diversity",
     subtitle:
       "Do you think the school promotes ideological diversity in its selection of speakers?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.stackedBarChart({
@@ -1159,7 +1159,7 @@ window.onload = () => {
 
   sota.bigNumber({
     section: "campus",
-    number: "41%",
+    number: "44.78%",
     title: "Head of School Approval",
     subtitle:
       "of respondents that approve of the work the Head of School is doing for students.",
@@ -2405,7 +2405,7 @@ window.onload = () => {
     groupLabelStyle: "onBar",
     title: "masturbation",
     subtitle: "How frequently do you masturbate?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.stackedBarChart({
@@ -2419,7 +2419,7 @@ window.onload = () => {
       "Would you feel comfortable telling your friends that you masturbate?",
     subtitle:
       "Editor’s note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary.” and “Other” have been removed in an effort to protect the complete anonymity of these respondents.",
-    // 2023!!
+    // 2024!!
   });
 
   sota.stackedBarChart({
