@@ -2954,7 +2954,7 @@ window.onload = () => {
     section: "wellness",
     dataFile: "assets/data/wellness/46-social_media",
     displayPercentage: true,
-    totalResp: 871,
+    totalResp: 779,
     title: "What social media platforms do you use at Andover?",
     // 2023!!
   });
@@ -2992,7 +2992,7 @@ window.onload = () => {
   sota.bigNumber({
     section: "wellness",
     title: "bullying & hazing",
-    number: "125",
+    number: "121",
     subtitle: "respondents have been bullied or hazed while at Andover",
     // 2023!!
   });
