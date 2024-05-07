@@ -1045,7 +1045,7 @@ window.onload = () => {
 
   // --- CAMPUS CULTURE!! ----
 
-  sota.pieChart({
+  sota.barChart({
     section: "campus",
     dataFile: "assets/data/campus/128-ideologicaldiversity",
     title: "ideological diversity",
