@@ -2738,7 +2738,7 @@ window.onload = () => {
 
   sota.bigNumber({
     section: "drugs",
-    number: "83.6%",
+    number: "78.58",
     title: "normalization of drugs and alcohol",
     subtitle:
       "of respondents believe that the use of recreational drugs or alcohol is normalized at Andover.",
