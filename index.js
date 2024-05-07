@@ -2599,7 +2599,7 @@ window.onload = () => {
 
   // --- DRUGS AND ALCOHOL!!! ---
 
-  sota.barChart({
+  sota.pieChart({
     section: "drugs",
     dataFile: "assets/data/drugs/95-alcohol",
     displayPercentage: true,
@@ -2678,7 +2678,7 @@ window.onload = () => {
     section: "drugs",
     dataFile: "assets/data/drugs/99-drug_frequency",
     displayPercentage: true,
-    totalResp: 822,
+    totalResp: 720,
     title: "Drug habits",
     subtitle:
       "How often do you consume recreational drugs or alcohol on campus?",
@@ -2811,7 +2811,7 @@ window.onload = () => {
     section: "drugs",
     dataFile: "assets/data/drugs/103-hard_drugs",
     displayPercentage: true,
-    totalResp: 819,
+    totalResp: 712,
     title: "Hallucinogens & hard drugs",
     subtitle: "Have you ever used hallucinogens or hard drugs?",
     // 2023!!
@@ -2868,7 +2868,7 @@ window.onload = () => {
     section: "drugs",
     dataFile: "assets/data/drugs/107-location",
     displayPercentage: true,
-    totalResp: 820,
+    totalResp: 718,
     title: "location",
     subtitle:
       "In which of the following settings at Andover have you been under the influence of recreational drugs or alcohol?",
