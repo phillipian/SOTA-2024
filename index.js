@@ -2926,7 +2926,7 @@ window.onload = () => {
   sota.bigNumber({
     section: "wellness",
     title: "sleep",
-    number: "6.80",
+    number: "6.94",
     subtitle: "average hours of sleep per night of an Andover student.",
     // 2023!!
   });
