@@ -549,8 +549,8 @@ window.onload = () => {
     totalResp: 883,
     sorted: false,
     title: "Political Affiliation",
-    subtitle: "What is your political affiliation?",
-    // 2023!!
+    subtitle: "What is your political leaning?",
+    // 2024!!
   });
 
   sota.stackedBarChart({
@@ -586,7 +586,7 @@ window.onload = () => {
   sota.pieChart({
     section: "politics",
     dataFile: "assets/data/politics/changing-beliefs",
-    totalResp: 879,
+    totalResp: 783,
     sorted: false,
     title: "Changing Beliefs",
     subtitle: "Have your political beliefs changed in the past year?",
@@ -611,7 +611,7 @@ window.onload = () => {
   sota.pieChart({
     section: "politics",
     dataFile: "assets/data/politics/andover-leaning",
-    totalResp: 878,
+    totalResp: 785,
     sorted: false,
     title: "Andover's Politics",
     subtitle: "Do you think the Andover community has a political leaning?",
