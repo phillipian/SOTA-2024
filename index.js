@@ -147,7 +147,7 @@ window.onload = () => {
 
   sota.bigNumber({
     section: "general",
-    number: "931",
+    number: "859",
     title: "",
     subtitle: "total students responded.",
     // 2023
@@ -171,7 +171,7 @@ window.onload = () => {
     // shapeHeight: 100,
     title: "WHAT CLASS ARE YOU IN?",
     subtitle: "Editor’s note: Seven students did not select a class year.",
-    // 2023!!
+    // 2024!!
   });
 
   sota.pieChart({
@@ -179,37 +179,37 @@ window.onload = () => {
     dataFile: "assets/data/general/3-boarding",
     title: "Boarding vs. Day Students",
     subtitle: "What are you enrolled as?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.bigNumber({
     section: "general",
-    number: "184",
+    number: "175",
+    title: "",
+    subtitle: "students responded from the Class of 2027.",
+    // 2024
+  });
+  sota.bigNumber({
+    section: "general",
+    number: "209",
     title: "",
     subtitle: "students responded from the Class of 2026.",
-    // 2023
+    // 2024
   });
   sota.bigNumber({
     section: "general",
-    number: "226",
+    number: "227",
     title: "",
     subtitle: "students responded from the Class of 2025.",
-    // 2023
-  });
-  sota.bigNumber({
-    section: "general",
-    number: "270",
-    title: "",
-    subtitle: "students responded from the Class of 2024.",
-    // 2023
+    // 2024
   });
 
   sota.bigNumber({
     section: "general",
-    number: "249",
+    number: "241",
     title: "",
-    subtitle: "students responded from the Class of 2023.",
-    // 2023
+    subtitle: "students responded from the Class of 2024.",
+    // 2024
   });
 
   sota.pieChart({
@@ -219,7 +219,7 @@ window.onload = () => {
     title: "Student Clusters",
     subtitle: "Which cluster are you affiliated with?",
     margin: margin,
-    // 2023!!
+    // 2024!!
   });
 
   sota.barChart({
@@ -230,7 +230,7 @@ window.onload = () => {
     title: "Time at Andover",
     subtitle:
       "How long have you attended Andover? (e.g. if you are currently a two-year lower, answer “2 years”) If at any point you took a leave of absence, round to the nearest whole year.",
-    // 2023!!
+    // 2024!!
   });
 
   sota.barChart({
@@ -240,7 +240,7 @@ window.onload = () => {
     displayPercentage: true,
     title: "Repeat Grade",
     subtitle: "Have you repeated a grade at Andover?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.pieChart({
@@ -249,7 +249,7 @@ window.onload = () => {
     sorted: false,
     title: "Region",
     subtitle: "What region are you from?",
-    // 2023
+    // 2024
   });
 
   sota.pieChart({
@@ -259,7 +259,7 @@ window.onload = () => {
     title: "Continents",
     subtitle:
       "If you are an international student, what continent are you from?",
-    // 2023
+    // 2024
   });
 
   sota.pieChart({
@@ -268,7 +268,7 @@ window.onload = () => {
     sorted: false,
     title: "Geographic Distribution",
     subtitle: "What type of community do you live in?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.pieChart({
@@ -278,7 +278,7 @@ window.onload = () => {
     title: "U.S. Residence",
     subtitle:
       "If you live in the United States of America, are you a citizen and/or permanent resident of the U.S.?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.barChart({
@@ -298,7 +298,7 @@ window.onload = () => {
     totalResp: 853,
     displayPercentage: true,
     title: "HOW MANY OF YOUR PARENTS GRADUATED FROM COLLEGE?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.barChart({
@@ -317,7 +317,7 @@ window.onload = () => {
     title: "Legacy",
     subtitle:
       "of respondents have at least one immediate family member who is currently attending or has previously attended Andover.",
-    // 2023!!
+    // 2024!!
   });
 
   sota.stackedBarChart({
@@ -331,16 +331,16 @@ window.onload = () => {
     title: "Legacy and Income",
     subtitle:
       "Whether or not respondents had at least one immediate family member who was attending or has previously attended Andover, and their income.",
-    // 2023!
+    // 2024!
   });
 
   sota.barChart({
     section: "general",
-    dataFile: "assets/data/general/13-sex",
+    dataFile: "asta/general/13-sex",
     totalResp: 854,
     displayPercentage: true,
-    title: "WHAT IS YOUR SEX?",
-    // 2023!!
+    title: "What is your assigned sex at birth?",
+    // 2024!!
   });
 
   sota.barChart({
@@ -349,7 +349,7 @@ window.onload = () => {
     totalResp: 854,
     displayPercentage: true,
     title: "WHAT IS YOUR GENDER IDENTITY?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.barChart({
@@ -360,7 +360,7 @@ window.onload = () => {
     title: "What are your preferred gender pronouns?",
     subtitle:
       "Editor’s note: Respondents were able to select multiple responses.",
-    // 2023!!
+    // 2024!!
   });
 
   sota.barChart({
@@ -369,7 +369,7 @@ window.onload = () => {
     totalResp: 851,
     displayPercentage: true,
     title: "What is your sexual orientation?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.stackedBarChart({
@@ -383,7 +383,7 @@ window.onload = () => {
     title: "Sexual Orientation & Gender Identity",
     subtitle:
       "The respondents' sexual orientation compared to their gender identity. Editor’s Note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary,” and “Other” gender identities have been removed in an effort to protect the complete anonymity of these respondents.",
-    // 2023!
+    // 2024!
   });
 
   sota.barChart({
@@ -392,7 +392,7 @@ window.onload = () => {
     totalResp: 850,
     displayPercentage: true,
     title: "What is your romantic orientation?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.columnChart({
@@ -402,7 +402,7 @@ window.onload = () => {
     title: "What is your race?",
     subtitle:
       "Editor’s Note: Respondents were given the option to select more than one answer if applicable.",
-    // 2023!!
+    // 2024!!
   });
 
   sota.barChart({
@@ -412,7 +412,7 @@ window.onload = () => {
     title: "What is your ethnicity?",
     subtitle:
       "Editor’s Note: Respondents were given the option to select more than one answer if applicable.",
-    // 2023!!
+    // 2024!!
   });
 
   // sota.stackedBarChart({
@@ -433,17 +433,17 @@ window.onload = () => {
     title: "With which religion/faith system do you currently identify with?",
     subtitle:
       "Editor's Note: Respondents were given the option to select more than one answer if applicable.",
-    // 2023!!
+    // 2024!!
   });
 
   sota.barChart({
     section: "general",
-    dataFile: "assets/data/general/21-perceived-socioeconomic",
+    dataFile: "assets/data/general/perceived-socioeconomic",
     totalResp: 844,
     displayPercentage: true,
     title: "Socioeconomic Status",
     subtitle: "What is your perceived socioeconomic status?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.pieChart({
@@ -454,7 +454,7 @@ window.onload = () => {
     title: "Net Income",
     subtitle: "What is your net family income?",
     margin: margin,
-    // 2023!!
+    // 2024!!
   });
 
   sota.stackedBarChart({
@@ -466,7 +466,7 @@ window.onload = () => {
     showLegend: false,
     title: "Perceived SEC & Income",
     subtitle: "Perceived socioeconmic class compared to income of respondents.",
-    // 2023!!
+    // 2024!!
   }); //better if 2 pie charts
 
   sota.stackedBarChart({
@@ -477,7 +477,7 @@ window.onload = () => {
     showLegend: false,
     title: "Income & Repeating Grade",
     subtitle: "Net income compared to respondents who have repeated grades.",
-    // 2023!!
+    // 2024!!
   }); //better if 2 pie charts
 
   sota.columnChart({
@@ -486,7 +486,7 @@ window.onload = () => {
     totalResp: 852,
     title: "Financial Aid",
     subtitle: "Are you on any form of financial aid?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.bigNumber({
@@ -514,7 +514,7 @@ window.onload = () => {
     showLegend: false,
     title: "Income & Varsity",
     subtitle: "Net income compared to respondents who are varsity athletes.",
-    // 2023!!
+    // 2024!!
   }); //better if 2 pie charts
 
   sota.stackedBarChart({
@@ -528,7 +528,7 @@ window.onload = () => {
     title: "Varsity & Race",
     subtitle:
       "Races of respondents who are Varsity Athletes. Editor's Note: Not all races were included due to the small number of responses in those categories.",
-    // 2023!
+    // 2024!
   });
 
   sota.pieChart({
