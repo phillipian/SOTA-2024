@@ -16,7 +16,7 @@ sota.sotaConfig.sections = [
       "#f0ffff",
     ],
     blurb:
-      "931 students responded - 81.0% of the student body participated in the survey. 35% of respondents have at least one immediate family member who is currently attending or has previously attended Andover.",
+      "859 students responded - 74.4% of the student body participated in the survey. 35% of respondents have at least one immediate family member who is currently attending or has previously attended Andover.",
   },
   {
     slug: "politics",
