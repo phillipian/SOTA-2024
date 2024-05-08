@@ -189,6 +189,7 @@ window.onload = () => {
     subtitle: "students responded from the Class of 2026.",
     // 2023
   });
+
   sota.bigNumber({
     section: "general",
     number: "226",
@@ -196,6 +197,7 @@ window.onload = () => {
     subtitle: "students responded from the Class of 2025.",
     // 2023
   });
+
   sota.bigNumber({
     section: "general",
     number: "270",
@@ -2218,7 +2220,7 @@ window.onload = () => {
   sota.groupedBarChart({
     section: "sex",
     dataFile: "assets/data/sex/sexualactivityXgrade",
-    totalResp: { 2026: 212, 2025: 301, 2024: 442, 2023: 477 },
+    totalResp: { 2027: 143, 2026: 180, 2025: 192, 2024: 205 },
     sorted: false,
     showLegend: true,
     labelStyle: "onBar",
@@ -2227,7 +2229,7 @@ window.onload = () => {
     title: "Sexual Activity by Grade",
     subtitle:
       "Respondents who have participated in sexual activity sorted by grade.",
-    // 2023!!
+    // 2024!!
   });
 
   sota.barChart({
@@ -2347,7 +2349,7 @@ window.onload = () => {
     title: "Rape Culture & Gender Identity",
     subtitle:
       "Whether respondents believe there is a rape culture at Andover by their gender identity. Editor’s note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary.” and “Other” have been removed in an effort to protect the complete anonymity of these respondents.",
-    // 2023!!
+    // 2024!!
   });
 
   sota.pieChart({
