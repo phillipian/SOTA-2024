@@ -2006,7 +2006,7 @@ window.onload = () => {
     title: "Social Divide Due to Socioeconomic Status & Socioeconomic Status",
     subtitle:
       "Respondents' opinions on whether there is a social divide at Andover due to socioeconomic status correlated with their socioeconomic status.",
-    // 2023!!
+    // 2024!!
   });
 
   // sota.stackedBarChart({
