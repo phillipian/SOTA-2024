@@ -147,7 +147,7 @@ window.onload = () => {
 
   sota.bigNumber({
     section: "general",
-    number: "931",
+    number: "859",
     title: "",
     subtitle: "total students responded.",
     // 2023
@@ -171,7 +171,7 @@ window.onload = () => {
     // shapeHeight: 100,
     title: "WHAT CLASS ARE YOU IN?",
     subtitle: "Editor’s note: Seven students did not select a class year.",
-    // 2023!!
+    // 2024!!
   });
 
   sota.pieChart({
@@ -179,39 +179,37 @@ window.onload = () => {
     dataFile: "assets/data/general/3-boarding",
     title: "Boarding vs. Day Students",
     subtitle: "What are you enrolled as?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.bigNumber({
     section: "general",
-    number: "184",
+    number: "175",
+    title: "",
+    subtitle: "students responded from the Class of 2027.",
+    // 2024
+  });
+  sota.bigNumber({
+    section: "general",
+    number: "209",
     title: "",
     subtitle: "students responded from the Class of 2026.",
-    // 2023
+    // 2024
   });
-
   sota.bigNumber({
     section: "general",
-    number: "226",
+    number: "227",
     title: "",
     subtitle: "students responded from the Class of 2025.",
-    // 2023
+    // 2024
   });
 
   sota.bigNumber({
     section: "general",
-    number: "270",
+    number: "241",
     title: "",
     subtitle: "students responded from the Class of 2024.",
-    // 2023
-  });
-
-  sota.bigNumber({
-    section: "general",
-    number: "249",
-    title: "",
-    subtitle: "students responded from the Class of 2023.",
-    // 2023
+    // 2024
   });
 
   sota.pieChart({
@@ -221,7 +219,7 @@ window.onload = () => {
     title: "Student Clusters",
     subtitle: "Which cluster are you affiliated with?",
     margin: margin,
-    // 2023!!
+    // 2024!!
   });
 
   sota.barChart({
@@ -232,7 +230,7 @@ window.onload = () => {
     title: "Time at Andover",
     subtitle:
       "How long have you attended Andover? (e.g. if you are currently a two-year lower, answer “2 years”) If at any point you took a leave of absence, round to the nearest whole year.",
-    // 2023!!
+    // 2024!!
   });
 
   sota.barChart({
@@ -242,7 +240,7 @@ window.onload = () => {
     displayPercentage: true,
     title: "Repeat Grade",
     subtitle: "Have you repeated a grade at Andover?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.pieChart({
@@ -251,7 +249,7 @@ window.onload = () => {
     sorted: false,
     title: "Region",
     subtitle: "What region are you from?",
-    // 2023
+    // 2024
   });
 
   sota.pieChart({
@@ -261,7 +259,7 @@ window.onload = () => {
     title: "Continents",
     subtitle:
       "If you are an international student, what continent are you from?",
-    // 2023
+    // 2024
   });
 
   sota.pieChart({
@@ -270,7 +268,7 @@ window.onload = () => {
     sorted: false,
     title: "Geographic Distribution",
     subtitle: "What type of community do you live in?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.pieChart({
@@ -280,7 +278,7 @@ window.onload = () => {
     title: "U.S. Residence",
     subtitle:
       "If you live in the United States of America, are you a citizen and/or permanent resident of the U.S.?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.barChart({
@@ -300,7 +298,7 @@ window.onload = () => {
     totalResp: 853,
     displayPercentage: true,
     title: "HOW MANY OF YOUR PARENTS GRADUATED FROM COLLEGE?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.barChart({
@@ -319,7 +317,7 @@ window.onload = () => {
     title: "Legacy",
     subtitle:
       "of respondents have at least one immediate family member who is currently attending or has previously attended Andover.",
-    // 2023!!
+    // 2024!!
   });
 
   sota.stackedBarChart({
@@ -333,16 +331,16 @@ window.onload = () => {
     title: "Legacy and Income",
     subtitle:
       "Whether or not respondents had at least one immediate family member who was attending or has previously attended Andover, and their income.",
-    // 2023!
+    // 2024!
   });
 
   sota.barChart({
     section: "general",
-    dataFile: "assets/data/general/13-sex",
+    dataFile: "asta/general/13-sex",
     totalResp: 854,
     displayPercentage: true,
-    title: "WHAT IS YOUR SEX?",
-    // 2023!!
+    title: "What is your assigned sex at birth?",
+    // 2024!!
   });
 
   sota.barChart({
@@ -351,7 +349,7 @@ window.onload = () => {
     totalResp: 854,
     displayPercentage: true,
     title: "WHAT IS YOUR GENDER IDENTITY?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.barChart({
@@ -362,7 +360,7 @@ window.onload = () => {
     title: "What are your preferred gender pronouns?",
     subtitle:
       "Editor’s note: Respondents were able to select multiple responses.",
-    // 2023!!
+    // 2024!!
   });
 
   sota.barChart({
@@ -371,7 +369,7 @@ window.onload = () => {
     totalResp: 851,
     displayPercentage: true,
     title: "What is your sexual orientation?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.stackedBarChart({
@@ -385,7 +383,7 @@ window.onload = () => {
     title: "Sexual Orientation & Gender Identity",
     subtitle:
       "The respondents' sexual orientation compared to their gender identity. Editor’s Note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary,” and “Other” gender identities have been removed in an effort to protect the complete anonymity of these respondents.",
-    // 2023!
+    // 2024!
   });
 
   sota.barChart({
@@ -394,7 +392,7 @@ window.onload = () => {
     totalResp: 850,
     displayPercentage: true,
     title: "What is your romantic orientation?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.columnChart({
@@ -404,7 +402,7 @@ window.onload = () => {
     title: "What is your race?",
     subtitle:
       "Editor’s Note: Respondents were given the option to select more than one answer if applicable.",
-    // 2023!!
+    // 2024!!
   });
 
   sota.barChart({
@@ -414,7 +412,7 @@ window.onload = () => {
     title: "What is your ethnicity?",
     subtitle:
       "Editor’s Note: Respondents were given the option to select more than one answer if applicable.",
-    // 2023!!
+    // 2024!!
   });
 
   // sota.stackedBarChart({
@@ -435,17 +433,17 @@ window.onload = () => {
     title: "With which religion/faith system do you currently identify with?",
     subtitle:
       "Editor's Note: Respondents were given the option to select more than one answer if applicable.",
-    // 2023!!
+    // 2024!!
   });
 
   sota.barChart({
     section: "general",
-    dataFile: "assets/data/general/21-perceived-socioeconomic",
+    dataFile: "assets/data/general/perceived-socioeconomic",
     totalResp: 844,
     displayPercentage: true,
     title: "Socioeconomic Status",
     subtitle: "What is your perceived socioeconomic status?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.pieChart({
@@ -456,7 +454,7 @@ window.onload = () => {
     title: "Net Income",
     subtitle: "What is your net family income?",
     margin: margin,
-    // 2023!!
+    // 2024!!
   });
 
   sota.stackedBarChart({
@@ -468,7 +466,7 @@ window.onload = () => {
     showLegend: false,
     title: "Perceived SEC & Income",
     subtitle: "Perceived socioeconmic class compared to income of respondents.",
-    // 2023!!
+    // 2024!!
   }); //better if 2 pie charts
 
   sota.stackedBarChart({
@@ -479,7 +477,7 @@ window.onload = () => {
     showLegend: false,
     title: "Income & Repeating Grade",
     subtitle: "Net income compared to respondents who have repeated grades.",
-    // 2023!!
+    // 2024!!
   }); //better if 2 pie charts
 
   sota.columnChart({
@@ -488,7 +486,7 @@ window.onload = () => {
     totalResp: 852,
     title: "Financial Aid",
     subtitle: "Are you on any form of financial aid?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.bigNumber({
@@ -516,7 +514,7 @@ window.onload = () => {
     showLegend: false,
     title: "Income & Varsity",
     subtitle: "Net income compared to respondents who are varsity athletes.",
-    // 2023!!
+    // 2024!!
   }); //better if 2 pie charts
 
   sota.stackedBarChart({
@@ -530,18 +528,18 @@ window.onload = () => {
     title: "Varsity & Race",
     subtitle:
       "Races of respondents who are Varsity Athletes. Editor's Note: Not all races were included due to the small number of responses in those categories.",
-    // 2023!
+    // 2024!
   });
 
-  sota.pieChart({
-    section: "general",
-    dataFile: "assets/data/politics/incarcerated",
-    totalResp: 882,
-    title: "INCARCERATION",
-    subtitle: "Do you personally know someone who has been incarcerated?",
-    shapeFile: "assets/svgs/handcuff",
-    // 2023!!
-  });
+  //  sota.pieChart({
+  //    section: "general",
+  //    dataFile: "assets/data/politics/incarcerated",
+  //    totalResp: 882,
+  //    title: "INCARCERATION",
+  //    subtitle: "Do you personally know someone who has been incarcerated?",
+  //    shapeFile: "assets/svgs/handcuff",
+  // 2023!!
+  // });
 
   // --- POLITICS!! --
 
@@ -1378,20 +1376,20 @@ window.onload = () => {
   // --- SCHOOL!! ---
   sota.bigNumber({
     section: "school",
-    number: "5.417",
+    number: "5.41",
     title: "Overall Average GPA",
     subtitle:
-      "average rounded Winter Term GPA, a 0.07 increase from 2022 (last year).",
-    // 2024!!
+      "average rounded Winter Term GPA, a 0.06 increase from 2022 (last year).",
+    // 2023!!
   });
 
   sota.lineGraph({
     section: "school",
     dataFile: "assets/data/school/111-gpa",
-    maxVal: 138,
+    maxVal: 156,
     title: "GPA",
-    subtitle: "What was your rounded Winter 2023-2024 GPA?",
-    // 2024!!
+    subtitle: "What was your rounded Winter 2022-2023 GPA?",
+    // 2023!!
   });
 
   sota.lineGraph({
@@ -1402,7 +1400,7 @@ window.onload = () => {
     title: "Average GPA Since 2018",
     subtitle:
       "Editor's note: All GPA values above are from previous State of the Academy surveys.",
-    // 2024!!
+    // 2023!!
   });
 
   sota.bigNumber({
@@ -1440,10 +1438,10 @@ window.onload = () => {
   sota.barChart({
     section: "school",
     dataFile: "assets/data/school/112-4_good",
-    // totalResp: 716,
+    // totalResp: 854,
     title: "Grading Scale",
     subtitle: 'Do you think a "4" is a good grade?',
-    // 2024!!
+    // 2023!!
   });
 
   sota.stackedBarChart({
@@ -1462,22 +1460,22 @@ window.onload = () => {
 
   sota.bigNumber({
     section: "school",
-    number: "3.79",
+    number: "3.8",
     title: "Time Spent on Coursework",
     subtitle:
-      "average hours spent on coursework daily, a 0.01 hour decrease from 2022 (last year).",
-    // 2024!!
+      "average hours spent on coursework daily, a 1.9 hour decrease from 2022 (last year).",
+    // 2023!!
   });
 
   sota.lineGraph({
     section: "school",
     dataFile: "assets/data/school/113-hours_on_coursework",
     minVal: 2,
-    maxVal: 229,
+    maxVal: 259,
     title: "Hours on coursework",
     subtitle:
       "How many hours do you spend on coursework outside of class each day?",
-    // 2024!
+    // 2023!
   });
 
   sota.barChart({
@@ -1486,7 +1484,7 @@ window.onload = () => {
     title: "Disparity between teachers",
     subtitle:
       "In which department(s), if any, is/are there an unreasonable grading disparity between teachers?",
-    // 2024!!
+    // 2023!!
   });
 
   sota.pieChart({
@@ -1496,7 +1494,7 @@ window.onload = () => {
     title: "Switching Teachers",
     subtitle:
       "Have you ever switched or attempted to switch teachers within the same course in order to attain a better grade?",
-    // 2024!!
+    // 2023!!
   });
 
   sota.pieChart({
@@ -1506,7 +1504,7 @@ window.onload = () => {
     title: "Student Leadership",
     subtitle:
       "Are you currently a student leader (prefect, proctor, DSM, EBI Senior, Cluster or School Co-President) on campus?",
-    // 2024!!
+    // 2023!!
   });
 
   sota.pieChart({
@@ -1516,7 +1514,7 @@ window.onload = () => {
     title: "Leadership Positions",
     subtitle: "How many leadership positions do you hold on campus?",
     margin: margin,
-    // 2024!!
+    // 2023!!
   });
 
   sota.barChart({
@@ -1526,7 +1524,7 @@ window.onload = () => {
     title: "Extracurriculars",
     subtitle:
       "Do you participate in any extracurriculars because you think they will increase your chances of getting into a selective college?",
-    // 2024!!
+    // 2023!!
   });
 
   sota.barChart({
@@ -1536,7 +1534,7 @@ window.onload = () => {
     title: "Leaving Andover",
     subtitle:
       "Have you ever considered leaving Andover permanently or temporarily?",
-    // 2024!!
+    // 2023!!
   });
 
   sota.stackedBarChart({
@@ -1556,12 +1554,12 @@ window.onload = () => {
   sota.pieChart({
     section: "school",
     dataFile: "assets/data/school/121-teacher_care",
-    totalResp: 713,
+    totalResp: 802,
     sorted: false,
     title: "Teacher Support",
     subtitle:
       "Do you think that the majority of your teachers care about your health and well-being?",
-    // 2024!!
+    // 2023!!
   });
 
   sota.pieChart({
@@ -1570,7 +1568,7 @@ window.onload = () => {
     sorted: false,
     showLegend: true,
     title: "Would you want your children to attend andover?",
-    // 2024!!
+    // 2023!!
   });
 
   sota.barChart({
@@ -1578,7 +1576,7 @@ window.onload = () => {
     dataFile: "assets/data/school/123-come_to_andover",
     title:
       "In retrospect, would you still make the decision to come to andover?",
-    // 2024!!
+    // 2023!!
   });
 
   sota.pieChart({
@@ -1589,7 +1587,7 @@ window.onload = () => {
     title: "Andover and family",
     subtitle:
       "Has attending Andover affected your relationship with your family?",
-    // 2024!!
+    // 2023!!
   });
 
   sota.pieChart({
@@ -1620,7 +1618,7 @@ window.onload = () => {
     title: "Learning Accomodations",
     margin: margin,
     subtitle: "Do you currently have learning accommodations at Andover?",
-    // 2024!!
+    // 2023!!
   });
 
   sota.pieChart({
@@ -1631,7 +1629,7 @@ window.onload = () => {
     title: "Andover Accomodations",
     subtitle:
       "Do you think Andover adequately accommodates students with disabilities that affect their learning?",
-    // 2024!!
+    // 2023!!
   });
 
   // sota.stackedBarChart({
@@ -2220,7 +2218,7 @@ window.onload = () => {
   sota.groupedBarChart({
     section: "sex",
     dataFile: "assets/data/sex/sexualactivityXgrade",
-    totalResp: { 2027: 143, 2026: 180, 2025: 192, 2024: 205 },
+    totalResp: { 2026: 212, 2025: 301, 2024: 442, 2023: 477 },
     sorted: false,
     showLegend: true,
     labelStyle: "onBar",
@@ -2229,7 +2227,7 @@ window.onload = () => {
     title: "Sexual Activity by Grade",
     subtitle:
       "Respondents who have participated in sexual activity sorted by grade.",
-    // 2024!!
+    // 2023!!
   });
 
   sota.barChart({
@@ -2349,7 +2347,7 @@ window.onload = () => {
     title: "Rape Culture & Gender Identity",
     subtitle:
       "Whether respondents believe there is a rape culture at Andover by their gender identity. Editor’s note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary.” and “Other” have been removed in an effort to protect the complete anonymity of these respondents.",
-    // 2024!!
+    // 2023!!
   });
 
   sota.pieChart({
