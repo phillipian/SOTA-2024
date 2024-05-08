@@ -531,15 +531,15 @@ window.onload = () => {
     // 2024!
   });
 
-  sota.pieChart({
-    section: "general",
-    dataFile: "assets/data/politics/incarcerated",
-    totalResp: 882,
-    title: "INCARCERATION",
-    subtitle: "Do you personally know someone who has been incarcerated?",
-    shapeFile: "assets/svgs/handcuff",
-    // 2023!!
-  });
+  //  sota.pieChart({
+  //    section: "general",
+  //    dataFile: "assets/data/politics/incarcerated",
+  //    totalResp: 882,
+  //    title: "INCARCERATION",
+  //    subtitle: "Do you personally know someone who has been incarcerated?",
+  //    shapeFile: "assets/svgs/handcuff",
+  // 2023!!
+  // });
 
   // --- POLITICS!! --
 
