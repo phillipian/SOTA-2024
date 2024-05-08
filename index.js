@@ -1376,20 +1376,20 @@ window.onload = () => {
   // --- SCHOOL!! ---
   sota.bigNumber({
     section: "school",
-    number: "5.41",
+    number: "5.417",
     title: "Overall Average GPA",
     subtitle:
-      "average rounded Winter Term GPA, a 0.06 increase from 2022 (last year).",
-    // 2023!!
+      "average rounded Winter Term GPA, a 0.07 increase from 2022 (last year).",
+    // 2024!!
   });
 
   sota.lineGraph({
     section: "school",
     dataFile: "assets/data/school/111-gpa",
-    maxVal: 156,
+    maxVal: 138,
     title: "GPA",
-    subtitle: "What was your rounded Winter 2022-2023 GPA?",
-    // 2023!!
+    subtitle: "What was your rounded Winter 2023-2024 GPA?",
+    // 2024!!
   });
 
   sota.lineGraph({
@@ -1400,7 +1400,7 @@ window.onload = () => {
     title: "Average GPA Since 2018",
     subtitle:
       "Editor's note: All GPA values above are from previous State of the Academy surveys.",
-    // 2023!!
+    // 2024!!
   });
 
   sota.bigNumber({
@@ -1438,10 +1438,10 @@ window.onload = () => {
   sota.barChart({
     section: "school",
     dataFile: "assets/data/school/112-4_good",
-    // totalResp: 854,
+    // totalResp: 716,
     title: "Grading Scale",
     subtitle: 'Do you think a "4" is a good grade?',
-    // 2023!!
+    // 2024!!
   });
 
   sota.stackedBarChart({
@@ -1460,22 +1460,22 @@ window.onload = () => {
 
   sota.bigNumber({
     section: "school",
-    number: "3.8",
+    number: "3.79",
     title: "Time Spent on Coursework",
     subtitle:
-      "average hours spent on coursework daily, a 1.9 hour decrease from 2022 (last year).",
-    // 2023!!
+      "average hours spent on coursework daily, a 0.01 hour decrease from 2022 (last year).",
+    // 2024!!
   });
 
   sota.lineGraph({
     section: "school",
     dataFile: "assets/data/school/113-hours_on_coursework",
     minVal: 2,
-    maxVal: 259,
+    maxVal: 229,
     title: "Hours on coursework",
     subtitle:
       "How many hours do you spend on coursework outside of class each day?",
-    // 2023!
+    // 2024!
   });
 
   sota.barChart({
@@ -1484,7 +1484,7 @@ window.onload = () => {
     title: "Disparity between teachers",
     subtitle:
       "In which department(s), if any, is/are there an unreasonable grading disparity between teachers?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.pieChart({
@@ -1494,7 +1494,7 @@ window.onload = () => {
     title: "Switching Teachers",
     subtitle:
       "Have you ever switched or attempted to switch teachers within the same course in order to attain a better grade?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.pieChart({
@@ -1504,7 +1504,7 @@ window.onload = () => {
     title: "Student Leadership",
     subtitle:
       "Are you currently a student leader (prefect, proctor, DSM, EBI Senior, Cluster or School Co-President) on campus?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.pieChart({
@@ -1514,7 +1514,7 @@ window.onload = () => {
     title: "Leadership Positions",
     subtitle: "How many leadership positions do you hold on campus?",
     margin: margin,
-    // 2023!!
+    // 2024!!
   });
 
   sota.barChart({
@@ -1524,7 +1524,7 @@ window.onload = () => {
     title: "Extracurriculars",
     subtitle:
       "Do you participate in any extracurriculars because you think they will increase your chances of getting into a selective college?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.barChart({
@@ -1534,7 +1534,7 @@ window.onload = () => {
     title: "Leaving Andover",
     subtitle:
       "Have you ever considered leaving Andover permanently or temporarily?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.stackedBarChart({
@@ -1554,12 +1554,12 @@ window.onload = () => {
   sota.pieChart({
     section: "school",
     dataFile: "assets/data/school/121-teacher_care",
-    totalResp: 802,
+    totalResp: 713,
     sorted: false,
     title: "Teacher Support",
     subtitle:
       "Do you think that the majority of your teachers care about your health and well-being?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.pieChart({
@@ -1568,7 +1568,7 @@ window.onload = () => {
     sorted: false,
     showLegend: true,
     title: "Would you want your children to attend andover?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.barChart({
@@ -1576,7 +1576,7 @@ window.onload = () => {
     dataFile: "assets/data/school/123-come_to_andover",
     title:
       "In retrospect, would you still make the decision to come to andover?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.pieChart({
@@ -1587,7 +1587,7 @@ window.onload = () => {
     title: "Andover and family",
     subtitle:
       "Has attending Andover affected your relationship with your family?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.pieChart({
@@ -1618,7 +1618,7 @@ window.onload = () => {
     title: "Learning Accomodations",
     margin: margin,
     subtitle: "Do you currently have learning accommodations at Andover?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.pieChart({
@@ -1629,7 +1629,7 @@ window.onload = () => {
     title: "Andover Accomodations",
     subtitle:
       "Do you think Andover adequately accommodates students with disabilities that affect their learning?",
-    // 2023!!
+    // 2024!!
   });
 
   // sota.stackedBarChart({
