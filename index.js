@@ -2621,7 +2621,7 @@ window.onload = () => {
     title: "Normalization of Drug Culture & Substance Use",
     subtitle:
       "Whether respondents believe drug culture has been normalized at Andover correlated with substance use.",
-    // 2023!!
+    // 2024!!
   });
 
   sota.pieChart({
@@ -2733,7 +2733,7 @@ window.onload = () => {
     displayPercentage: true,
     title: "Income & Alcohol Use",
     subtitle: "Alcohol use by students correlated with their household income.",
-    // 2023!!
+    // 2024!!
   });
 
   sota.bigNumber({
@@ -2794,18 +2794,23 @@ window.onload = () => {
     title: "Use of Study Drugs & GPA",
     subtitle:
       "Whether respondents use study drugs correlated with their GPA. Editor's Note: Only data from the GPA range of 5.0 - 6.0 is used.",
-    // 2023!!
+    // 2024!!
   });
-  // sota.stackedBarChart({
-  //   section: "drugs",
-  //   dataFile: "assets/data/drugs/studydrugsXgpa",
-  //   displayPercentage: true,
-  //   groupLabelStyle: "onBar",
-  //   title: "Study drug use vs. G.P.A.",
-  //   subtitle:
-  //     'respondents who use study drugs compared to their G.P.A.',
-  //     // 2022!!
-  // });
+
+  sota.stackedBarChart({
+    section: "drugs",
+    dataFile: "assets/data/drugs/studentleaderXstudydrug",
+    sorted: false,
+    showLegend: true,
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    inputIsPercentage: true,
+    displayPercentage: true,
+    title: "Student Leadership & Study Drug Use",
+    subtitle:
+      "How respondents who are student leaders are correlated with Study Drug use.",
+    // 2024!!
+  });
 
   sota.barChart({
     section: "drugs",
@@ -2839,17 +2844,17 @@ window.onload = () => {
 
   sota.stackedBarChart({
     section: "drugs",
-    dataFile: "assets/data/drugs/pressureXdrugs",
+    dataFile: "assets/data/drugs/pressureXalc",
     sorted: false,
     showLegend: true,
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
     inputIsPercentage: true,
     displayPercentage: true,
-    title: "Pressure & Drug Use",
+    title: "Pressure & Alchohol Use",
     subtitle:
-      "Whether respondents feel pressured to participate in drug use correlated with drug use.",
-    // 2023!!
+      "Whether respondents feel pressured to participate in drug use correlated with alchohol use.",
+    // 2024!!
   });
 
   sota.pieChart({
