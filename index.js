@@ -2151,7 +2151,7 @@ window.onload = () => {
     title: "Leadership & Gender",
     subtitle:
       "Respondents' opinions on whether gender limits their capacity to obtain leadership positions correlated with their gender. Editor’s note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary.” and “Other” have been removed in an effort to protect the complete anonymity of these respondents.",
-    // 2023!!
+    // 2024!!
   });
 
   sota.stackedBarChart({
@@ -2165,7 +2165,7 @@ window.onload = () => {
     title: "Leadership & Race",
     subtitle:
       "Respondents' opinions on whether race limits their capacity to obtain leadership positions correlated with their race. Editor’s Note: Correlated statistics from respondents whose races are “Indigenous People of the Americas” and “Native Hawaiian or Pacific Islander” have been removed in an effort to protect the complete anonymity of these respondents. ",
-    // 2023!!
+    // 2024!!
   });
 
   sota.pieChart({
