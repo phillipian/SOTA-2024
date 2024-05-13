@@ -57,6 +57,7 @@ sota.sotaConfig.sections = [
     blurb:
       "Andover students average 6.80 hours of sleep a night. Of respondents, 77.4% consider themselves happy at Andover and 67.2% feel as though they have an adequate mental or emotional support system on campus. 88.2% of students indicate that friends are a part of their support system, whereas 38.4% indicate faculty or staff. 27.5% of respondents think that the mental health and counseling resources provided by the Rebecca M. Sykes Wellness Center are sufficient.",
   },
+
   {
     slug: "drugs",
     name: "Drugs & Alcohol",
@@ -150,7 +151,7 @@ window.onload = () => {
     number: "859",
     title: "",
     subtitle: "total students responded.",
-    // 2023
+    // 2024
   });
 
   sota.bigNumber({
@@ -247,7 +248,7 @@ window.onload = () => {
     section: "general",
     dataFile: "assets/data/general/region",
     sorted: false,
-    title: "Region",
+    title: "Geographical Distribution",
     subtitle: "What region are you from?",
     // 2024
   });
@@ -266,7 +267,7 @@ window.onload = () => {
     section: "general",
     dataFile: "assets/data/general/6-community_type",
     sorted: false,
-    title: "Geographic Distribution",
+    title: "Urban vs. Rural",
     subtitle: "What type of community do you live in?",
     // 2024!!
   });
@@ -289,7 +290,7 @@ window.onload = () => {
     title: "Parent and Guardian Residence",
     subtitle:
       "If you live in the United States of America, how many of your guardian(s) are citizens and/or permanent residents of the U.S.?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.barChart({
@@ -494,17 +495,17 @@ window.onload = () => {
     number: "42.0%",
     title: "Financial aid",
     subtitle: "of respondents are on financial aid provided by Andover.",
-    // 2023!!
+    // 2024!!
   });
 
-  sota.pieChart({
-    section: "general",
-    dataFile: "assets/data/campus/23-varsity",
-    // shapeFile: "assets/svgs/varsityjacket",
-    title: "Varsity Athletics",
-    subtitle: "Are you a varsity athlete?",
-    // 2023!!
-  });
+  //  sota.pieChart({
+  //    section: "general",
+  //    dataFile: "assets/data/campus/23-varsity",
+  //    // shapeFile: "assets/svgs/varsityjacket",
+  //    title: "Varsity Athletics",
+  //    subtitle: "Are you a varsity athlete?",
+  //    // 2023!!
+  //  });
 
   sota.stackedBarChart({
     section: "general",
@@ -550,6 +551,16 @@ window.onload = () => {
     sorted: false,
     title: "Political Affiliation",
     subtitle: "What is your political leaning?",
+    // 2024!!
+  });
+
+  sota.pieChart({
+    section: "politics",
+    dataFile: "assets/data/politics/politicalparty",
+    totalResp: 788,
+    sorted: false,
+    title: "Political Party",
+    subtitle: "Do you identify with a United States political party?",
     // 2024!!
   });
 
@@ -2621,7 +2632,7 @@ window.onload = () => {
     title: "Normalization of Drug Culture & Substance Use",
     subtitle:
       "Whether respondents believe drug culture has been normalized at Andover correlated with substance use.",
-    // 2023!!
+    // 2024!!
   });
 
   sota.pieChart({
@@ -2733,7 +2744,7 @@ window.onload = () => {
     displayPercentage: true,
     title: "Income & Alcohol Use",
     subtitle: "Alcohol use by students correlated with their household income.",
-    // 2023!!
+    // 2024!!
   });
 
   sota.bigNumber({
@@ -2794,18 +2805,23 @@ window.onload = () => {
     title: "Use of Study Drugs & GPA",
     subtitle:
       "Whether respondents use study drugs correlated with their GPA. Editor's Note: Only data from the GPA range of 5.0 - 6.0 is used.",
-    // 2023!!
+    // 2024!!
   });
-  // sota.stackedBarChart({
-  //   section: "drugs",
-  //   dataFile: "assets/data/drugs/studydrugsXgpa",
-  //   displayPercentage: true,
-  //   groupLabelStyle: "onBar",
-  //   title: "Study drug use vs. G.P.A.",
-  //   subtitle:
-  //     'respondents who use study drugs compared to their G.P.A.',
-  //     // 2022!!
-  // });
+
+  sota.stackedBarChart({
+    section: "drugs",
+    dataFile: "assets/data/drugs/studentleaderXstudydrug",
+    sorted: false,
+    showLegend: true,
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    inputIsPercentage: true,
+    displayPercentage: true,
+    title: "Student Leadership & Study Drug Use",
+    subtitle:
+      "How respondents who are student leaders are correlated with Study Drug use.",
+    // 2024!!
+  });
 
   sota.barChart({
     section: "drugs",
@@ -2839,17 +2855,17 @@ window.onload = () => {
 
   sota.stackedBarChart({
     section: "drugs",
-    dataFile: "assets/data/drugs/pressureXdrugs",
+    dataFile: "assets/data/drugs/pressureXalc",
     sorted: false,
     showLegend: true,
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
     inputIsPercentage: true,
     displayPercentage: true,
-    title: "Pressure & Drug Use",
+    title: "Pressure & Alchohol Use",
     subtitle:
-      "Whether respondents feel pressured to participate in drug use correlated with drug use.",
-    // 2023!!
+      "Whether respondents feel pressured to participate in drug use correlated with alchohol use.",
+    // 2024!!
   });
 
   sota.pieChart({
