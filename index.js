@@ -2617,7 +2617,7 @@ window.onload = () => {
     groupLabelStyle: "onBar",
     title: "Alcohol",
     subtitle: "Have you ever consumed alcohol recreationally?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.stackedBarChart({
@@ -2643,7 +2643,18 @@ window.onload = () => {
     title: "e-cigarette",
     subtitle:
       "Have you ever used an e-cigarette or vaped a nicotine-based product?",
-    // 2023!!
+    // 2024!!
+  });
+
+  sota.pieChart({
+    section: "drugs",
+    dataFile: "assets/data/drugs/oralnicotine-product",
+    displayPercentage: true,
+    sorted: false,
+    title: "Zyn Usage",
+    subtitle:
+      "Have you ever used an oral nicotine packet (commonly referred to as a Zyn)?",
+    // 2024!!
   });
 
   sota.bigNumber({
@@ -2661,7 +2672,7 @@ window.onload = () => {
     groupLabelStyle: "onBar",
     title: "Marijuana",
     subtitle: "Have you ever used any form of marijuana?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.columnChart({
@@ -2672,7 +2683,7 @@ window.onload = () => {
     title: "tobacco",
     subtitle:
       "Have you ever used any tobacco products (e.g. dipping and chewing tobacco, cigarettes, etc.)?",
-    // 2023!!
+    // 2024!!
   });
 
   // sota.stackedBarChart({
@@ -2693,7 +2704,7 @@ window.onload = () => {
     title: "Drug habits",
     subtitle:
       "How often do you consume recreational drugs or alcohol on campus?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.bigNumber({
@@ -2704,20 +2715,20 @@ window.onload = () => {
       "of student leaders have consumed drugs or alchohol on and off campus",
   }); // 2023!!
 
-  sota.stackedBarChart({
-    section: "drugs",
-    dataFile: "assets/data/drugs/studentleaderXalcohol",
-    sorted: false,
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    inputIsPercentage: true,
-    displayPercentage: true,
-    title: "Student Leadership & Alcohol Use",
-    subtitle:
-      "How respondents who are student leaders are correlated with alcohol use.",
-    // 2023!!
-  });
+  // sota.stackedBarChart({
+  //   section: "drugs",
+  //   dataFile: "assets/data/drugs/studentleaderXalcohol",
+  //   sorted: false,
+  //   showLegend: true,
+  //   labelStyle: "onBar",
+  //   groupLabelStyle: "onBar",
+  //   inputIsPercentage: true,
+  //   displayPercentage: true,
+  //   title: "Student Leadership & Alcohol Use",
+  //   subtitle:
+  //     "How respondents who are student leaders are correlated with alcohol use.",
+  //   // 2023!!
+  // });
 
   sota.stackedBarChart({
     section: "drugs",
@@ -2753,7 +2764,7 @@ window.onload = () => {
     title: "normalization of drugs and alcohol",
     subtitle:
       "of respondents believe that the use of recreational drugs or alcohol is normalized at Andover.",
-  }); // 2023!!
+  }); // 2024!!
 
   // sota.pieChart({
   //     section:"drugs",
@@ -2769,7 +2780,7 @@ window.onload = () => {
     title: "drugs and friendships",
     title:
       "Do you think that recreational drug or alcohol use significantly influences your friendships at Andover?",
-    // 2023!!
+    // 2024!!
   });
 
   // sota.pieChart({
@@ -2790,7 +2801,7 @@ window.onload = () => {
     margin: margin,
     subtitle:
       "Have you ever used pharmaceutical drugs in the hopes of enhancing academic performance (i.e. “study drugs”) during your time at Andover?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.stackedBarChart({
@@ -2830,7 +2841,7 @@ window.onload = () => {
     totalResp: 819,
     title: "Hallucinogens & hard drugs",
     subtitle: "Have you ever used hallucinogens or hard drugs?",
-    // 2023!!
+    // 2024!!
   });
 
   // sota.stackedBarChart({
@@ -2850,7 +2861,7 @@ window.onload = () => {
     title: "peer pressure",
     subtitle:
       "Have you ever felt pressured by peers to consume recreational drugs or alcohol on campus?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.stackedBarChart({
@@ -2877,7 +2888,7 @@ window.onload = () => {
 
     subtitle:
       "Have you ever sold someone recreational drugs, alcohol, or your prescription medication?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.barChart({
@@ -2888,7 +2899,18 @@ window.onload = () => {
     title: "location",
     subtitle:
       "In which of the following settings at Andover have you been under the influence of recreational drugs or alcohol?",
-    // 2023!!
+    // 2024!!
+  });
+
+  sota.pieChart({
+    section: "drugs",
+    dataFile: "assets/data/drugs/leavingcampus",
+    displayPercentage: true,
+    sorted: false,
+    title: "leaving campus",
+    subtitle:
+      "Have you ever intentionally left campus to consume recreational drugs or alcohol (off campus homes, downtown Andover, Boston)?",
+    // 2024!!
   });
 
   sota.pieChart({
@@ -2898,21 +2920,20 @@ window.onload = () => {
     title: "Fake I.D.",
     margin: margin,
     subtitle: "Have you ever purchased or do you own a fake ID?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.stackedBarChart({
     section: "drugs",
-    dataFile: "assets/data/drugs/fakeidXalcohol",
+    dataFile: "assets/data/drugs/zynXvarsity",
     sorted: false,
     showLegend: true,
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
     inputIsPercentage: true,
     displayPercentage: true,
-    title: "Fake I.D. & Alcohol Use",
-    subtitle:
-      "Whether respondents have fake I.D.'s correlated with alcohol use",
+    title: "Zyn & Varsity",
+    subtitle: "Usage of Zyn by respondents who are Varsity Athletes. ",
     // 2023!!
   });
 
@@ -2924,7 +2945,7 @@ window.onload = () => {
     margin: margin,
     subtitle:
       "Sanctuary: provided with a means of accessing support in situations where alcohol, drugs, tobacco, and/or nicotine are involved WITHOUT disciplinary consequences (The Blue Book)",
-    // 2023!!
+    // 2024!!
   });
 
   sota.stackedBarChart({
@@ -2934,7 +2955,7 @@ window.onload = () => {
     labelStyle: "onBar",
     title: "Santuary Policy",
     subtitle: "Have you ever sanctuaried someone else?",
-    // 2023!!
+    // 2024!!
   });
 
   // ----- WELLNESS!! <3 ------
