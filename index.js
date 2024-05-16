@@ -15,8 +15,8 @@ sota.sotaConfig.sections = [
       "#e3f4fb",
       "#f0ffff",
     ],
-    blurb:
-      "931 students responded - 81.0% of the student body participated in the survey. 35% of respondents have at least one immediate family member who is currently attending or has previously attended Andover.",
+    // blurb:
+    //   "859 students responded - 74.4% of the student body participated in the survey. 35% of respondents have at least one immediate family member who is currently attending or has previously attended Andover.",
   },
   {
     slug: "politics",
@@ -32,7 +32,7 @@ sota.sotaConfig.sections = [
       "#DFDBE7",
     ],
     blurb:
-      "97.8% of students indicated that they support “the advocacy of women’s rights on the ground of the equality of the sexes.” However, 70.8% of students consider themselves to be a feminist. 67.4% of students believe the police system in the United States of America should be altered. When asked who students support in the Israel-Palestine conflict, 66.1% of students indicated that they did not know enough about the conflict to answer. 34.4% of students believe that white people can experience racism, colloquially known as “reverse racism.”",
+      "Of respondents, 98.1% indicated that they support the 'advocacy of equality of the sexes and the establishment of the political, social, and economic rights of the female sex' (Oxford English Dictionary). However, only 67.3% of students considered themselves to be a feminist. Of studnets, 84.1% believed gun control in the United States of America should be stricter. 76.1% of studnets indicated that they believe the school has not provided adequate education on Israel and Palestine. When asked about Andover's political leading, 89.7% of studnets thought that the community has a political leaning to the left, while only 3.2% thought that the community has a learning to the right.",
   },
 
   {
