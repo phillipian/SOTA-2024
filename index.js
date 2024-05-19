@@ -337,7 +337,7 @@ window.onload = () => {
 
   sota.barChart({
     section: "general",
-    dataFile: "asta/general/13-sex",
+    dataFile: "assets/data/general/13-sex",
     totalResp: 854,
     displayPercentage: true,
     title: "What is your assigned sex at birth?",
@@ -466,7 +466,7 @@ window.onload = () => {
     groupLabelStyle: "onBar",
     showLegend: false,
     title: "Perceived SEC & Income",
-    subtitle: "Perceived socioeconmic class compared to income of respondents.",
+    subtitle: "Perceived socioeconomic class compared to income of respondents.",
     // 2024!!
   }); //better if 2 pie charts
 
@@ -483,7 +483,7 @@ window.onload = () => {
 
   sota.columnChart({
     section: "general",
-    dataFile: "assets/data/general/22-financial_aid",
+    dataFile: "assets/data/general/23-financial_aid",
     totalResp: 852,
     title: "Financial Aid",
     subtitle: "Are you on any form of financial aid?",
@@ -2657,13 +2657,7 @@ window.onload = () => {
     // 2024!!
   });
 
-  sota.bigNumber({
-    section: "drugs",
-    number: "33.0%",
-    title: "nicotine use",
-    subtitle: "of respondents have used a nicotine-based product.",
-    // 2023!!
-  });
+
 
   sota.barChart({
     section: "drugs",
@@ -2707,13 +2701,13 @@ window.onload = () => {
     // 2024!!
   });
 
-  sota.bigNumber({
-    section: "drugs",
-    number: "30.8%",
-    title: "Drugs vs. student leadership",
-    subtitle:
-      "of student leaders have consumed drugs or alchohol on and off campus",
-  }); // 2023!!
+  // sota.bigNumber({
+  //   section: "drugs",
+  //   number: "30.8%",
+  //   title: "Drugs vs. student leadership",
+  //   subtitle:
+  //     "of student leaders have consumed drugs or alchohol on and off campus",
+  // }); // 2023!!
 
   // sota.stackedBarChart({
   //   section: "drugs",
@@ -2934,7 +2928,7 @@ window.onload = () => {
     displayPercentage: true,
     title: "Zyn & Varsity",
     subtitle: "Usage of Zyn by respondents who are Varsity Athletes. ",
-    // 2023!!
+    // 2024!!
   });
 
   sota.pieChart({
