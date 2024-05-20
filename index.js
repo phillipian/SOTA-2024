@@ -856,6 +856,7 @@ window.onload = () => {
     dataFile: "assets/data/politics/prison_reform",
     displayPercentage: true,
     title: "Prison System",
+    margin: margin,
     subtitle:
       "Do you believe that the current prison system in the United States of America should be altered?",
     // 2023!!
@@ -886,6 +887,7 @@ window.onload = () => {
     dataFile: "assets/data/politics/ceasefire",
     displayPercentage: true,
     title: "Ceasefire",
+    margin: margin,
     subtitle:
       "Regarding an Israel and Gaza ceasefire, which of the following statements do you most agree with?",
     // 2023!!
