@@ -40,7 +40,7 @@ sota.sotaConfig.sections = [
     name: "Education",
     colors: ["#812F54", "#AA7281", "#BF97A0", "#BF97A0", "#DCC5C3"],
     blurb:
-      "As Andover students returned for a second year of in-person classes after the Covid-19 pandemic, students reported an average grade point average (GPA) of 5.41. Last year, students reported an average GPA of 5.35. Students reported an average of 3.8 hours spent on course work each day, which is a 1.9 hour decrease from last year’s average of 5.7 hours. 79.8% of students believe there is an unreasonable grading disparity between teachers in Andover’s English Department.",
+      "Andover students reported an average grade point average (GPA) of 5.42, 0.01 higher than last year's average, while the average time spent on homework daily remained the same at 3.8 hours. 78.1% of the Class of 2027 believed that attending Andover has a positive effect on college admissions compared to 68% of the Class of 2026 when they were Juniors. While the departments with the most percieved grading disparity remained similar compared to last year, 12.3% fewer respondents selected the Art Department.",
   },
   {
     slug: "wellness",
@@ -55,7 +55,7 @@ sota.sotaConfig.sections = [
       "#BAE5AE",
     ],
     blurb:
-      "Andover students average 6.80 hours of sleep a night. Of respondents, 77.4% consider themselves happy at Andover and 67.2% feel as though they have an adequate mental or emotional support system on campus. 88.2% of students indicate that friends are a part of their support system, whereas 38.4% indicate faculty or staff. 27.5% of respondents think that the mental health and counseling resources provided by the Rebecca M. Sykes Wellness Center are sufficient.",
+      "Andover students sleep an average of 6.94 hours of sleep a night. Out of the total respondents, 82.1% generally consider themselves happy at Andover and 69.0% reported that they feel as if they have an adequate mental or emotional support system on campus. The average Andover studnet spends 2.46 hours per day on social media, with the most popular platform being Instagram at 91.5% student usage rate.",
   },
 
   {
@@ -63,7 +63,7 @@ sota.sotaConfig.sections = [
     name: "Drugs & Alcohol",
     colors: ["#E77929","#EB8D44", "#EFA15B", "#F1AB67", "#F3B572", "#F5BF88", "#F6C99E", "#F8D6B1", "#FADCBD", "#FBE2C8", "#FDEEDE","#F8EADB", "#F3E6D7", "#E9DDD0"],
     blurb:
-      "Of Andover students, 57.7% have consumed alcohol recreationally, 33.9% have used a form of marijuana, 23.0% have used an e-cigarette or vaped a nicotine-based product, 15.0% have used tobacco products, and 6.4% have used hallucinogens or hard drugs. Of those who have been under the influence of recreational drugs or alcohol on campus, 28.4% did so in a dorm setting and 25.1% did so at a school-sponsored event.",
+      "At Andover, 55.4% of students have consumed alcohol recreationally, 30.2% have used a form of marijuana, 22.8% have used an e-cigarette or vaped a nicotine-based product, 16.8% have used tobacco products, 9.3% have used an oral nicotine packet, and 5.5% have used hallucinogens or hard drugs. For students who consume alcohol or drugs recreationally on campus, 10.3% consume on a weekly basis",
   },
   {
     slug: "sex",
@@ -78,28 +78,28 @@ sota.sotaConfig.sections = [
       "#fbe7ec",
     ],
     blurb:
-      "At Andover, 41.3% of students have engaged in sexual activity — defined as digital, oral, anal, online, and vaginal sex. 51.9% of respondents have been or are currently in a committed relationship. 47.7% of students feel comfortable with telling friends that they masturbate; of those respondents, 63.1% were men and 30.1% were women.",
+      "At Andover, 39.8% of students have engaged in sexual activity — defined as digital, oral, anal, online, and vaginal sex. Of the respondents, 45.4% hav been or are currently in a committed relationship. For students who masturbate, 45.9% of students feel comfortable with telling friends; of those respondents, 70.0% were men and 30.0% were women. Since 2021, the percent of students who think Andover provides adequate sexual education has risen from 62.2% to 86.2%.",
   },
   {
     slug: "campus",
     name: "Campus Culture",
     colors: ["#762670", "#945E98", "#A77FAD", "#BC98B9", "#D9C6D8"],
     blurb:
-      "As Dr. Raynard Kington nears the end of his third year as Andover’s Head of School (HOS), 41.0% of students approve of the work Kington is doing for the students, and 15.4% of students think Kington connects with the student body. Reflecting Divest Andover’s ongoing efforts, 80.3% of students believe that Andover should divest from fossil fuel companies and 62.3% of students support a “day on” for Earth Day. 21.7% of students think Andover’s anti-racist work is sufficient.",
+      "As Dr. Raynard Kington nears the end of his fourth year as Andover’s Head of School (HOS), 44.8% of students approved of the work Kington was doing for the students, while only 17.8% of students thought Kington connected with the student body. 74.5% of students believed Andover should divest from fossil fuel companies, and 17.5% of students believed Andover does enough to combat climate change. 30.7% of students thought Andover's anti-racist work is sufficient.",
   },
   {
     slug: "diversity",
     name: "Community Diversity",
     colors: ["#279680", "#29AD97", "#78C4B1", "#AEDCCA", "#C8E7DD"],
     blurb:
-      "Day students compose 26.3% of the Andover student body; and 53.1% of the student body believes that day students are able to integrate enough with boarding students in the Andover community. 25.7% of respondents have felt discriminated against at Andover due to their race, and 22.6% of respondents have felt discriminated against due to their gender. When asked about the Equity, Balance, and Inclusion (EBI) curriculum, 20.8% of respondents think the EBI curriculum at Andover is effective in helping students become better community members. ",
+      "Day students compose 26.4% of the Andover student body; and 55.8% of the student body believed that day students are able to integrate enough with boarding students in the Andover community. Of respondents, 24.1% have felt discriminated against at Andover due to their race, and 20.7% of respondents have felt discriminated against due to their gender. When asked about the Equity, Balance, and Inclusion (EBI) curriculum, 15.3% of respondents think the EBI curriculum at Andover is effective in helping students become better community member, over 5% less than last year.",
   },
   {
     slug: "discipline",
     name: "Discipline",
     colors: ["#B53432", "#C74F50", "#D47173", "#E4A8A6", "#F0D1CA"],
     blurb:
-      "This school year, Andover changed its disciplinary process to the “Responses to Student Behaviors” process, and 68.6% of the student body understand the changes that have been implemented. The disciplinary offenses are now categorized into three levels — each with their respective consequences — 16.1% of all respondents believe that the new disciplinary system effectively responds to students who are caught breaking school rules. 64.0% of students think that the disciplinary system favors students of privileged backgrounds. When correlated with income, 88.9% of respondents whose net family income was less than $35,000 believe that the disciplinary system favors students of privileged backgrounds, while 57.7% of respondents whose net family income was greater than $1,000,000 believe that the disciplinary system favors students of privileged backgrounds.",
+      "In 2022, Andover changed its disciplinary process to the “Responses to Student Behaviors” process, and 68.6% of the student body understand the changes that have been implemented. 16.1% of all respondents believed that the new disciplinary system effectively responds to students who are caught breaking school rules. 64.0% of students think that the disciplinary system favors students of privileged backgrounds. When correlated with income, 88.9% of respondents whose net family income was less than $35,000 believe that the disciplinary system favors students of privileged backgrounds, while 57.7% of respondents whose net family income was greater than $1,000,000 believe that the disciplinary system favors students of privileged backgrounds.",
   },
 
   // {
@@ -1967,6 +1967,17 @@ window.onload = () => {
     // 2024!!
   });
 
+  sota.pieChart({
+    section: "discipline",
+    dataFile: "assets/data/discipline/162-artificialintelligence",
+    sorted: false,
+    title: "Artificial Intelligence",
+    margin: margin,
+    subtitle:
+      "Have you ever used Artifical Intelligence for an academic assignment without explicit permission?",
+    // 2024!!
+  });
+
   // sota.stackedBarChart({
   //   section: "discipline",
   //   dataFile: "assets/data/discipline/153-plagiarized",
@@ -2797,12 +2808,12 @@ window.onload = () => {
       "of respondents believe that the use of recreational drugs or alcohol is normalized at Andover.",
   }); // 2024!!
 
-  // sota.pieChart({
-  //     section:"drugs",
-  //     dataFile: "assets/data/drugs/normalized",
-  //     displayPercentage: true,
-  //     title: "Do you think that the use of recreational drugs or alcohol is normalized at Andover?"
-  // });
+  sota.pieChart({
+      section:"drugs",
+      dataFile: "assets/data/drugs/normalized",
+      displayPercentage: true,
+      title: "Do you think that the use of recreational drugs or alcohol is normalized at Andover?"
+  });
 
   sota.pieChart({
     section: "drugs",
