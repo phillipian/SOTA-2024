@@ -1930,6 +1930,17 @@ window.onload = () => {
     // 2024!!
   });
 
+  sota.pieChart({
+    section: "discipline",
+    dataFile: "assets/data/discipline/162-artificialintelligence",
+    sorted: false,
+    title: "Artificial Intelligence",
+    margin: margin,
+    subtitle:
+      "Have you ever used Artifical Intelligence for an academic assignment without explicit permission?",
+    // 2024!!
+  });
+
   // sota.stackedBarChart({
   //   section: "discipline",
   //   dataFile: "assets/data/discipline/153-plagiarized",
@@ -2760,12 +2771,12 @@ window.onload = () => {
       "of respondents believe that the use of recreational drugs or alcohol is normalized at Andover.",
   }); // 2024!!
 
-  // sota.pieChart({
-  //     section:"drugs",
-  //     dataFile: "assets/data/drugs/normalized",
-  //     displayPercentage: true,
-  //     title: "Do you think that the use of recreational drugs or alcohol is normalized at Andover?"
-  // });
+  sota.pieChart({
+      section:"drugs",
+      dataFile: "assets/data/drugs/normalized",
+      displayPercentage: true,
+      title: "Do you think that the use of recreational drugs or alcohol is normalized at Andover?"
+  });
 
   sota.pieChart({
     section: "drugs",
