@@ -61,7 +61,7 @@ sota.sotaConfig.sections = [
   {
     slug: "drugs",
     name: "Drugs & Alcohol",
-    colors: ["#E77929","#EB8D44", "#EFA15B", "#F1AB67", "#F3B572", "#F5BF88", "#F6C99E", "#F8D6B1", "#FADCBD", "#FBE2C8", "#FDEEDE"],
+    colors: ["#E77929","#EB8D44", "#EFA15B", "#F1AB67", "#F3B572", "#F5BF88", "#F6C99E", "#F8D6B1", "#FADCBD", "#FBE2C8", "#FDEEDE","#F8EADB", "#F3E6D7", "#E9DDD0"],
     blurb:
       "Of Andover students, 57.7% have consumed alcohol recreationally, 33.9% have used a form of marijuana, 23.0% have used an e-cigarette or vaped a nicotine-based product, 15.0% have used tobacco products, and 6.4% have used hallucinogens or hard drugs. Of those who have been under the influence of recreational drugs or alcohol on campus, 28.4% did so in a dorm setting and 25.1% did so at a school-sponsored event.",
   },
