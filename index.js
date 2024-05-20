@@ -498,14 +498,14 @@ window.onload = () => {
     // 2024!!
   });
 
-  //  sota.pieChart({
-  //    section: "general",
-  //    dataFile: "assets/data/campus/23-varsity",
-  //    // shapeFile: "assets/svgs/varsityjacket",
-  //    title: "Varsity Athletics",
-  //    subtitle: "Are you a varsity athlete?",
-  //    // 2023!!
-  //  });
+   sota.pieChart({
+     section: "general",
+     dataFile: "assets/data/general/varsity",
+     // shapeFile: "assets/svgs/varsityjacket",
+     title: "Varsity Athletics",
+     subtitle: "Are you a varsity athlete?",
+     // 2024!!
+   });
 
   sota.stackedBarChart({
     section: "general",
@@ -664,15 +664,15 @@ window.onload = () => {
     // 2023!!
   });
 
-  sota.barChart({
-    section: "politics",
-    dataFile: "assets/data/politics/30-news_sources",
-    totalResp: 879,
-    displayPercentage: true,
-    title: "Staying Informed",
-    subtitle: "How do you get your news?",
-    // 2023!!
-  });
+  // sota.barChart({
+  //   section: "politics",
+  //   dataFile: "assets/data/politics/30-news_sources",
+  //   totalResp: 879,
+  //   displayPercentage: true,
+  //   title: "Staying Informed",
+  //   subtitle: "How do you get your news?",
+  //   // 2023!!
+  // });
 
   sota.barChart({
     section: "politics",
@@ -680,7 +680,7 @@ window.onload = () => {
     totalResp: 876,
     displayPercentage: true,
     title: "Getting Information",
-    subtitle: "Where do you get your news?",
+    subtitle: "Where do you get the majority of your news?",
     // 2023!!
   });
 
@@ -724,10 +724,10 @@ window.onload = () => {
 
   sota.bigNumber({
     section: "politics",
-    number: "34.4%",
+    number: "42.1%",
     title: '"Reverse Racism"',
     subtitle:
-      "of respondents believe that white people can experience racism, an increase from 2022's 31%.",
+      "of respondents believe that white people can experience racism, an increase from 2023's 34.4%.",
     // 2023!!
   });
 
@@ -736,7 +736,7 @@ window.onload = () => {
     dataFile: "assets/data/politics/32-reverse_racism",
     title: '"Reverse Racism"',
     subtitle:
-      'Do you believe that white people can experience racism (colloquially known as "reverse racism")? ',
+      'Racism is defined as “a system of oppression involving the subordination of members of targeted racial groups by those who have relatively little social power” (Phillips Academy). Do you believe that white people can experience racism (colloquially known as reverse racism)? ',
     // 2023!!
   });
 
@@ -760,7 +760,17 @@ window.onload = () => {
     dataFile: "assets/data/politics/33-blm",
     showPercentage: true,
     title: "Black Lives Matter",
-    subtitle: "Do you support the Black Lives Matter movement?",
+    subtitle: 'Do you support the Black Lives Matter movement — "Black Lives Matter (BLM) is an international activist movement, originating in the African-American community, that campaigns against violence and systemic racism toward black people” (Black Lives Matter, 2015).',
+    // 2023!!
+  });
+
+  sota.pieChart({
+    section: "politics",
+    dataFile: "assets/data/politics/equal-sexes",
+    title: "Equality of the Sexes",
+    subtitle:
+      "Do you support “advocacy of equality of the sexes and the establishment of the political, social, and economic rights of the female sex” (Oxford English Dictionary)?",
+    margin: margin,
     // 2023!!
   });
 
@@ -810,9 +820,9 @@ window.onload = () => {
   sota.pieChart({
     section: "politics",
     dataFile: "assets/data/politics/36-immigration",
-    title: "Immigration & Border Security",
+    title: "Immigration to America",
     subtitle:
-      "Do you believe that the United States of America should increase border security?",
+      "Do you believe that it should be easier to legally immigrate to the United States of America?",
     // 2023!!
   });
 
@@ -841,13 +851,10 @@ window.onload = () => {
     // 2023!!
   });
 
-  sota.stackedBarChart({
+  sota.pieChart({
     section: "politics",
-    dataFile: "assets/data/politics/prison_reformXincarceration",
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
+    dataFile: "assets/data/politics/prison_reform",
     displayPercentage: true,
-    showLegend: true,
     title: "Prison System",
     subtitle:
       "Do you believe that the current prison system in the United States of America should be altered?",
@@ -856,29 +863,59 @@ window.onload = () => {
 
   sota.pieChart({
     section: "politics",
-    dataFile: "assets/data/politics/police",
-    title: "Police Reform",
+    dataFile: "assets/data/politics/hos_statement",
+    displayPercentage: true,
+    title: "HOS Statement",
     subtitle:
-      "Do you believe that the current police system in the U.S. should be altered?",
+      "Do you support the Head of School’s new statement policy — “For Andover to issue a statement, the societal event must directly impact our education mission, and our voice should add value to public discourse” (From Raynard Kington’s email to the Andover community on February 27, 2024)?",
     // 2023!!
   });
 
   sota.pieChart({
     section: "politics",
-    dataFile: "assets/data/politics/israel-palestine",
-    showLegend: true,
-    title: "Israel-Palestine Conflict",
+    dataFile: "assets/data/politics/israel_palestine",
+    displayPercentage: true,
+    title: "Israel Palestine Education",
     subtitle:
-      "Are you “pro-Israel” or “pro-Palestine” in the Israel-Palestine conflict?",
+      "In October 2023, The Phillipian published an editorial calling for increased education on Israel and Palestine. Do you feel the school has provided adequate education on Israel and Palestine?",
     // 2023!!
   });
+
+  sota.pieChart({
+    section: "politics",
+    dataFile: "assets/data/politics/ceasefire",
+    displayPercentage: true,
+    title: "Ceasefire",
+    subtitle:
+      "Regarding an Israel and Gaza ceasefire, which of the following statements do you most agree with?",
+    // 2023!!
+  });
+
+  // sota.pieChart({
+  //   section: "politics",
+  //   dataFile: "assets/data/politics/police",
+  //   title: "Police Reform",
+  //   subtitle:
+  //     "Do you believe that the current police system in the U.S. should be altered?",
+  //   // 2023!!
+  // });
+
+  // sota.pieChart({
+  //   section: "politics",
+  //   dataFile: "assets/data/politics/israel-palestine",
+  //   showLegend: true,
+  //   title: "Israel-Palestine Conflict",
+  //   subtitle:
+  //     "Are you “pro-Israel” or “pro-Palestine” in the Israel-Palestine conflict?",
+  //   // 2023!!
+  // });
 
   sota.pieChart({
     section: "politics",
     dataFile: "assets/data/politics/drug-decriminalization",
     title: "Decriminalization of Drugs",
     subtitle:
-      "Do you believe that drugs should be decriminalized in the United States of America?",
+      "Do you support the decriminalization of drugs — “eliminating criminal penalties for drug use and possession” (Drug Policy Alliance)?",
     // 2023!!
   });
 
@@ -900,7 +937,7 @@ window.onload = () => {
     section: "politics",
     dataFile: "assets/data/politics/42-firearms",
     title: "Firearm Ownership",
-    subtitle: "Does your family own firearms?",
+    subtitle: "Does your household own firearms?",
     shapeFile: "assets/svgs/gun",
     // 2023!!
   });
