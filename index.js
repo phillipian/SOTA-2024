@@ -498,14 +498,14 @@ window.onload = () => {
     // 2024!!
   });
 
-   sota.pieChart({
-     section: "general",
-     dataFile: "assets/data/general/varsity",
-     // shapeFile: "assets/svgs/varsityjacket",
-     title: "Varsity Athletics",
-     subtitle: "Are you a varsity athlete?",
-     // 2024!!
-   });
+  //  sota.pieChart({
+  //    section: "general",
+  //    dataFile: "assets/data/campus/23-varsity",
+  //    // shapeFile: "assets/svgs/varsityjacket",
+  //    title: "Varsity Athletics",
+  //    subtitle: "Are you a varsity athlete?",
+  //    // 2023!!
+  //  });
 
   sota.stackedBarChart({
     section: "general",
@@ -664,15 +664,15 @@ window.onload = () => {
     // 2023!!
   });
 
-  // sota.barChart({
-  //   section: "politics",
-  //   dataFile: "assets/data/politics/30-news_sources",
-  //   totalResp: 879,
-  //   displayPercentage: true,
-  //   title: "Staying Informed",
-  //   subtitle: "How do you get your news?",
-  //   // 2023!!
-  // });
+  sota.barChart({
+    section: "politics",
+    dataFile: "assets/data/politics/30-news_sources",
+    totalResp: 879,
+    displayPercentage: true,
+    title: "Staying Informed",
+    subtitle: "How do you get your news?",
+    // 2023!!
+  });
 
   sota.barChart({
     section: "politics",
@@ -680,7 +680,7 @@ window.onload = () => {
     totalResp: 876,
     displayPercentage: true,
     title: "Getting Information",
-    subtitle: "Where do you get the majority of your news?",
+    subtitle: "Where do you get your news?",
     // 2023!!
   });
 
@@ -724,10 +724,10 @@ window.onload = () => {
 
   sota.bigNumber({
     section: "politics",
-    number: "42.1%",
+    number: "34.4%",
     title: '"Reverse Racism"',
     subtitle:
-      "of respondents believe that white people can experience racism, an increase from 2023's 34.4%.",
+      "of respondents believe that white people can experience racism, an increase from 2022's 31%.",
     // 2023!!
   });
 
@@ -736,7 +736,7 @@ window.onload = () => {
     dataFile: "assets/data/politics/32-reverse_racism",
     title: '"Reverse Racism"',
     subtitle:
-      'Racism is defined as “a system of oppression involving the subordination of members of targeted racial groups by those who have relatively little social power” (Phillips Academy). Do you believe that white people can experience racism (colloquially known as reverse racism)? ',
+      'Do you believe that white people can experience racism (colloquially known as "reverse racism")? ',
     // 2023!!
   });
 
@@ -760,17 +760,7 @@ window.onload = () => {
     dataFile: "assets/data/politics/33-blm",
     showPercentage: true,
     title: "Black Lives Matter",
-    subtitle: 'Do you support the Black Lives Matter movement — "Black Lives Matter (BLM) is an international activist movement, originating in the African-American community, that campaigns against violence and systemic racism toward black people” (Black Lives Matter, 2015).',
-    // 2023!!
-  });
-
-  sota.pieChart({
-    section: "politics",
-    dataFile: "assets/data/politics/equal-sexes",
-    title: "Equality of the Sexes",
-    subtitle:
-      "Do you support “advocacy of equality of the sexes and the establishment of the political, social, and economic rights of the female sex” (Oxford English Dictionary)?",
-    margin: margin,
+    subtitle: "Do you support the Black Lives Matter movement?",
     // 2023!!
   });
 
@@ -820,9 +810,9 @@ window.onload = () => {
   sota.pieChart({
     section: "politics",
     dataFile: "assets/data/politics/36-immigration",
-    title: "Immigration to America",
+    title: "Immigration & Border Security",
     subtitle:
-      "Do you believe that it should be easier to legally immigrate to the United States of America?",
+      "Do you believe that the United States of America should increase border security?",
     // 2023!!
   });
 
@@ -851,12 +841,14 @@ window.onload = () => {
     // 2023!!
   });
 
-  sota.pieChart({
+  sota.stackedBarChart({
     section: "politics",
-    dataFile: "assets/data/politics/prison_reform",
+    dataFile: "assets/data/politics/prison_reformXincarceration",
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
     displayPercentage: true,
+    showLegend: true,
     title: "Prison System",
-    margin: margin,
     subtitle:
       "Do you believe that the current prison system in the United States of America should be altered?",
     // 2023!!
@@ -864,60 +856,29 @@ window.onload = () => {
 
   sota.pieChart({
     section: "politics",
-    dataFile: "assets/data/politics/hos_statement",
-    displayPercentage: true,
-    title: "HOS Statement",
+    dataFile: "assets/data/politics/police",
+    title: "Police Reform",
     subtitle:
-      "Do you support the Head of School’s new statement policy — “For Andover to issue a statement, the societal event must directly impact our education mission, and our voice should add value to public discourse” (From Raynard Kington’s email to the Andover community on February 27, 2024)?",
+      "Do you believe that the current police system in the U.S. should be altered?",
     // 2023!!
   });
 
   sota.pieChart({
     section: "politics",
-    dataFile: "assets/data/politics/israel_palestine",
-    displayPercentage: true,
-    title: "Israel Palestine Education",
+    dataFile: "assets/data/politics/israel-palestine",
+    showLegend: true,
+    title: "Israel-Palestine Conflict",
     subtitle:
-      "In October 2023, The Phillipian published an editorial calling for increased education on Israel and Palestine. Do you feel the school has provided adequate education on Israel and Palestine?",
+      "Are you “pro-Israel” or “pro-Palestine” in the Israel-Palestine conflict?",
     // 2023!!
   });
-
-  sota.pieChart({
-    section: "politics",
-    dataFile: "assets/data/politics/ceasefire",
-    displayPercentage: true,
-    title: "Ceasefire",
-    margin: margin,
-    subtitle:
-      "Regarding an Israel and Gaza ceasefire, which of the following statements do you most agree with?",
-    // 2023!!
-  });
-
-  // sota.pieChart({
-  //   section: "politics",
-  //   dataFile: "assets/data/politics/police",
-  //   title: "Police Reform",
-  //   subtitle:
-  //     "Do you believe that the current police system in the U.S. should be altered?",
-  //   // 2023!!
-  // });
-
-  // sota.pieChart({
-  //   section: "politics",
-  //   dataFile: "assets/data/politics/israel-palestine",
-  //   showLegend: true,
-  //   title: "Israel-Palestine Conflict",
-  //   subtitle:
-  //     "Are you “pro-Israel” or “pro-Palestine” in the Israel-Palestine conflict?",
-  //   // 2023!!
-  // });
 
   sota.pieChart({
     section: "politics",
     dataFile: "assets/data/politics/drug-decriminalization",
     title: "Decriminalization of Drugs",
     subtitle:
-      "Do you support the decriminalization of drugs — “eliminating criminal penalties for drug use and possession” (Drug Policy Alliance)?",
+      "Do you believe that drugs should be decriminalized in the United States of America?",
     // 2023!!
   });
 
@@ -939,7 +900,7 @@ window.onload = () => {
     section: "politics",
     dataFile: "assets/data/politics/42-firearms",
     title: "Firearm Ownership",
-    subtitle: "Does your household own firearms?",
+    subtitle: "Does your family own firearms?",
     shapeFile: "assets/svgs/gun",
     // 2023!!
   });
@@ -2105,16 +2066,16 @@ window.onload = () => {
     // 2024!!
   });
 
-  sota.barChart({
-    section: "diversity",
-    dataFile: "assets/data/diversity/139-faculty_support",
-    totalResp: 745,
-    displayPercentage: true,
-    title: "Faculty Support",
-    subtitle:
-      "Which of the faculty/staff members in your life do you feel are supportive of a diverse range of students?",
-    // 2023!!
-  });
+  // sota.barChart({
+  //   section: "diversity",
+  //   dataFile: "assets/data/diversity/139-faculty_support",
+  //   totalResp: 745,
+  //   displayPercentage: true,
+  //   title: "Faculty Support",
+  //   subtitle:
+  //     "Which of the faculty/staff members in your life do you feel are supportive of a diverse range of students?",
+  //   // 2023!!
+  // });
 
   sota.barChart({
     section: "diversity",
@@ -2279,7 +2240,7 @@ window.onload = () => {
   sota.groupedBarChart({
     section: "sex",
     dataFile: "assets/data/sex/sexualactivityXgrade",
-    totalResp: { 2026: 212, 2025: 301, 2024: 442, 2023: 477 },
+    totalResp: { 2027: 143, 2026: 180, 2025: 192, 2024: 205 },
     sorted: false,
     showLegend: true,
     labelStyle: "onBar",
@@ -2288,7 +2249,7 @@ window.onload = () => {
     title: "Sexual Activity by Grade",
     subtitle:
       "Respondents who have participated in sexual activity sorted by grade.",
-    // 2023!!
+    // 2024!!
   });
 
   sota.barChart({
@@ -2308,28 +2269,28 @@ window.onload = () => {
     // 2024!!
   });
 
-  sota.pieChart({
-    section: "sex",
-    dataFile: "assets/data/sex/73-hookup_culture",
-    displayPercentage: true,
-    title: "hook-up culture",
-    subtitle: "Do you believe that there is a hook-up culture at Andover?",
-    // 2023!!
-  });
+  // sota.pieChart({
+  //   section: "sex",
+  //   dataFile: "assets/data/sex/73-hookup_culture",
+  //   displayPercentage: true,
+  //   title: "hook-up culture",
+  //   subtitle: "Do you believe that there is a hook-up culture at Andover?",
+  //   // 2023!!
+  // });
 
-  sota.stackedBarChart({
-    section: "sex",
-    dataFile: "assets/data/sex/hookupXgender",
-    sorted: false,
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    title: "Hook-Up Culture & Gender Identity",
-    subtitle:
-      "Whether respondents believe there is a hook-up culture at Andover by their gender identity. Editor’s note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary.” and “Other” have been removed in an effort to protect the complete anonymity of these respondents.",
-    // 2023!!
-  });
+  // sota.stackedBarChart({
+  //   section: "sex",
+  //   dataFile: "assets/data/sex/hookupXgender",
+  //   sorted: false,
+  //   showLegend: true,
+  //   labelStyle: "onBar",
+  //   groupLabelStyle: "onBar",
+  //   displayPercentage: true,
+  //   title: "Hook-Up Culture & Gender Identity",
+  //   subtitle:
+  //     "Whether respondents believe there is a hook-up culture at Andover by their gender identity. Editor’s note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary.” and “Other” have been removed in an effort to protect the complete anonymity of these respondents.",
+  //   // 2023!!
+  // });
 
   sota.bigNumber({
     section: "sex",
@@ -2349,14 +2310,14 @@ window.onload = () => {
     // 2024!!
   });
 
-  sota.bigNumber({
-    section: "sex",
-    number: "34.6%",
-    title: '"Hooking-up"',
-    subtitle:
-      'of respondents have "hooked-up" with someone they were not in a committed relationship with',
-    // 2023!!
-  });
+  // sota.bigNumber({
+  //   section: "sex",
+  //   number: "34.6%",
+  //   title: '"Hooking-up"',
+  //   subtitle:
+  //     'of respondents have "hooked-up" with someone they were not in a committed relationship with',
+  //   // 2023!!
+  // });
 
   sota.pieChart({
     section: "sex",
@@ -2408,7 +2369,7 @@ window.onload = () => {
     title: "Rape Culture & Gender Identity",
     subtitle:
       "Whether respondents believe there is a rape culture at Andover by their gender identity. Editor’s note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary.” and “Other” have been removed in an effort to protect the complete anonymity of these respondents.",
-    // 2023!!
+    // 2024!!
   });
 
   sota.pieChart({
@@ -2436,17 +2397,17 @@ window.onload = () => {
     // 2024!!
   });
 
-  sota.stackedBarChart({
-    section: "sex",
-    dataFile: "assets/data/sex/inter-class_relationship",
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    title: "inter-class relationships",
-    subtitle:
-      "If you are currently in a committed relationship, what class is your partner in?",
-    // 2023!!
-  });
+  // sota.stackedBarChart({
+  //   section: "sex",
+  //   dataFile: "assets/data/sex/inter-class_relationship",
+  //   showLegend: true,
+  //   labelStyle: "onBar",
+  //   groupLabelStyle: "onBar",
+  //   title: "inter-class relationships",
+  //   subtitle:
+  //     "If you are currently in a committed relationship, what class is your partner in?",
+  //   // 2023!!
+  // });
 
   sota.lineGraph({
     section: "sex",
@@ -2458,16 +2419,16 @@ window.onload = () => {
     // 2024!!
   });
 
-  sota.stackedBarChart({
-    section: "sex",
-    dataFile: "assets/data/sex/83-masturbation",
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    title: "masturbation",
-    subtitle: "How frequently do you masturbate?",
-    // 2023!!
-  });
+  // sota.stackedBarChart({
+  //   section: "sex",
+  //   dataFile: "assets/data/sex/83-masturbation",
+  //   showLegend: true,
+  //   labelStyle: "onBar",
+  //   groupLabelStyle: "onBar",
+  //   title: "masturbation",
+  //   subtitle: "How frequently do you masturbate?",
+  //   // 2023!!
+  // });
 
   sota.stackedBarChart({
     section: "sex",
@@ -2494,7 +2455,7 @@ window.onload = () => {
     title: "Talking about Masturbation & Gender Identity",
     subtitle:
       "Whether respondents feel comfortable telling their friends they masturbate by their gender identity. Editor’s note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary.” and “Other” have been removed in an effort to protect the complete anonymity of these respondents.",
-    // 2023!!
+    // 2024!!
   });
 
   sota.barChart({
@@ -2573,14 +2534,14 @@ window.onload = () => {
     // 2024!!
   });
 
-  sota.bigNumber({
-    section: "sex",
-    number: "18.8%",
-    title: "Sex, Drugs, and Alcohol",
-    subtitle:
-      "of respondents who have consumed drugs or alcohol have had sex under the influence.",
-    // 2023!!
-  });
+  // sota.bigNumber({
+  //   section: "sex",
+  //   number: "18.8%",
+  //   title: "Sex, Drugs, and Alcohol",
+  //   subtitle:
+  //     "of respondents who have consumed drugs or alcohol have had sex under the influence.",
+  //   // 2023!!
+  // });
 
   sota.stackedBarChart({
     section: "sex",
@@ -2604,7 +2565,7 @@ window.onload = () => {
     title: "Sex Under the Influence & Substance Consumption",
     subtitle:
       "Whether respondents have had sex under the influence correlated with substance consumption.",
-    // 2023!!
+    // 2024!!
   });
 
   // sota.groupedBarChart({
