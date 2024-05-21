@@ -30,6 +30,7 @@ sota.sotaConfig.sections = [
       "#BFBDD5",
       "#ACA0C0",
       "#DFDBE7",
+      "#CBC3E3",
     ],
     blurb:
       "Of respondents, 98.1% indicated that they support the 'advocacy of equality of the sexes and the establishment of the political, social, and economic rights of the female sex' (Oxford English Dictionary). However, only 67.3% of students considered themselves to be a feminist. Of studnets, 84.1% believed gun control in the United States of America should be stricter. 76.1% of studnets indicated that they believe the school has not provided adequate education on Israel and Palestine. When asked about Andover's political leading, 89.7% of studnets thought that the community has a political leaning to the left, while only 3.2% thought that the community has a learning to the right.",
@@ -38,7 +39,7 @@ sota.sotaConfig.sections = [
   {
     slug: "school",
     name: "Education",
-    colors: ["#812F54", "#AA7281", "#BF97A0", "#BF97A0", "#DCC5C3"],
+    colors: ["#812F54", "#AA7281", "#BF97A0", "#BF97A0", "#DCC5C3","#EEE2E1"],
     blurb:
       "Andover students reported an average grade point average (GPA) of 5.42, 0.01 higher than last year's average, while the average time spent on homework daily remained the same at 3.8 hours. 78.1% of the Class of 2027 believed that attending Andover has a positive effect on college admissions compared to 68% of the Class of 2026 when they were Juniors. While the departments with the most percieved grading disparity remained similar compared to last year, 12.3% fewer respondents selected the Art Department.",
   },
@@ -53,6 +54,7 @@ sota.sotaConfig.sections = [
       "#CEDFA6",
       "#E3EFCE",
       "#BAE5AE",
+      ""
     ],
     blurb:
       "Andover students sleep an average of 6.94 hours of sleep a night. Out of the total respondents, 82.1% generally consider themselves happy at Andover and 69.0% reported that they feel as if they have an adequate mental or emotional support system on campus. The average Andover studnet spends 2.46 hours per day on social media, with the most popular platform being Instagram at 91.5% student usage rate.",
@@ -161,6 +163,12 @@ window.onload = () => {
     right: 10,
   };
 
+  var largemargin = {
+    top: 20,
+    left: 50,
+    bottom: 40,
+    right: 15,
+  }
   sota.bigNumber({
     section: "general",
     number: "859",
@@ -947,7 +955,7 @@ window.onload = () => {
     section: "politics",
     dataFile: "assets/data/politics/ceasefire",
     showLegend: true,
-    margin: margin,
+    margin: largemargin,
     title: "Israel-Palestine Ceasefire",
     subtitle:
       "Regarding an Israel and Gaza ceasefire, which of the following statements do you most agree with?",
