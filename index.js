@@ -1236,7 +1236,7 @@ window.onload = () => {
     displayPercentage: true,
     title: "Anti-Racism & Race",
     subtitle:
-      "Respondents' opinions on whether Andover's anti-racism work is sufficient correlated with their race.",
+      "Respondents' opinions on whether Andover's anti-racism work is sufficient correlated with their race. Edtior's Note: Not all races were included due to the small number of responses in those categories.",
     // 2023!!
   });
 
@@ -1311,6 +1311,32 @@ window.onload = () => {
       "Respondents' opinions on whether they support the work the Head of School is doing for the students correlated with their class year.",
     // 2023!!
   });
+  
+  sota.pieChart({
+    section: "campus",
+    dataFile: "assets/data/campus/hos-policy",
+    sorted: false,
+    title: "Head of School Policy",
+    subtitle:
+      "Do you support the Head of School’s new statement policy — “For Andover to issue a statement, the societal event must directly impact our education mission, and our voice should add value to public discourse” (From Raynard Kington’s email to the Andover community on February 27, 2024)?",
+    // 2024!!
+  });
+
+  sota.stackedBarChart({
+    section: "campus",
+    dataFile: "assets/data/campus/hospolicyXhosapproval",
+    sorted: false,
+    showLegend: true,
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    displayPercentage: true,
+    title: "Head of School Approval & Class Year",
+    subtitle:
+      "Respondents' opinions on whether they support the statement made by the Head of School correlated with whether they support the work the Head of School is doing for students.",
+    // 2023!!
+  });
+
+
 
   sota.pieChart({
     section: "campus",
@@ -1768,17 +1794,17 @@ window.onload = () => {
     // 2023!!
   });
 
-  // sota.stackedBarChart({
-  //   section: "school",
-  //   dataFile: "assets/data/school/learning_disabilityXaccomodation",
-  //   labelStyle: "onBar",
-  //   displayPercentage: true,
-  //   groupLabelStyle: "onBar",
-  //   showLegend: true,
-  //   title:
-  //     "Do you think Andover adequately accommodates students with learning disabilities?",
-  //     // 2022!!
-  // });
+  sota.stackedBarChart({
+    section: "school",
+    dataFile: "assets/data/school/learning_disabilityXaccomodation",
+    labelStyle: "onBar",
+    displayPercentage: true,
+    groupLabelStyle: "onBar",
+    showLegend: true,
+    title:
+      "Do you think Andover adequately accommodates students with learning disabilities?",
+      // 2022!!
+  });
 
   // sota.multiLineGraph({
   //   section: "school",
