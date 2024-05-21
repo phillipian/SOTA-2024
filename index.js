@@ -937,9 +937,20 @@ window.onload = () => {
     section: "politics",
     dataFile: "assets/data/politics/israel-palestine",
     showLegend: true,
-    title: "Israel-Palestine Conflict",
+    title: "Israel-Palestine Education",
     subtitle:
-      "Are you “pro-Israel” or “pro-Palestine” in the Israel-Palestine conflict?",
+      "In October 2023, The Phillipian published an editorial calling for increased education on Israel and Palestine. Do you feel the school has provided adequate education on Israel and Palestine?",
+    // 2023!!
+  });
+
+  sota.pieChart({
+    section: "politics",
+    dataFile: "assets/data/politics/ceasefire",
+    showLegend: true,
+    margin: margin,
+    title: "Israel-Palestine Ceasefire",
+    subtitle:
+      "Regarding an Israel and Gaza ceasefire, which of the following statements do you most agree with?",
     // 2023!!
   });
 
@@ -1914,7 +1925,7 @@ window.onload = () => {
     displayPercentage: true,
     title: "Discipline System & Residential Status",
     subtitle:
-      "Respondents' residential statuses correlated with the discipline system.",
+      "Respondents' residential statuses correlated with if they have received disciplinary action.",
     // 2023!!
   });
 
@@ -1999,14 +2010,14 @@ window.onload = () => {
   //   // 2022!!
   // });
 
-  sota.stackedColumnChart({
-    section: "discipline",
-    dataFile: "assets/data/discipline/cheatedXclass",
-    title: "Cheating by Class",
-    subtitle:
-      "Have you ever cheated on any tests, quizzes, or in-class assessments while at Andover?",
-    // 2023!!
-  });
+  // sota.stackedColumnChart({
+  //   section: "discipline",
+  //   dataFile: "assets/data/discipline/cheatedXclass",
+  //   title: "Cheating by Class",
+  //   subtitle:
+  //     "Have you ever cheated on any tests, quizzes, or in-class assessments while at Andover?",
+  //   // 2023!!
+  // });
 
   sota.stackedBarChart({
     section: "discipline",
@@ -2046,19 +2057,19 @@ window.onload = () => {
     // 2023!!
   });
 
-  sota.stackedBarChart({
-    section: "discipline",
-    dataFile: "assets/data/discipline/understandXclassyear",
-    sorted: false,
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    title: "Understanding the Process & Class Year",
-    subtitle:
-      "Whether respondents understand the new disciplinary process correlated with their class year.",
-    // 2023!!
-  });
+  // sota.stackedBarChart({
+  //   section: "discipline",
+  //   dataFile: "assets/data/discipline/understandXclassyear",
+  //   sorted: false,
+  //   showLegend: true,
+  //   labelStyle: "onBar",
+  //   groupLabelStyle: "onBar",
+  //   displayPercentage: true,
+  //   title: "Understanding the Process & Class Year",
+  //   subtitle:
+  //     "Whether respondents understand the new disciplinary process correlated with their class year.",
+  //   // 2023!!
+  // });
   sota.pieChart({
     section: "discipline",
     dataFile: "assets/data/discipline/160-Level3-caught",
@@ -2090,6 +2101,20 @@ window.onload = () => {
     subtitle:
       "Have you ever used Artifical Intelligence for an academic assignment without explicit permission?",
     // 2024!!
+  });
+
+  sota.stackedBarChart({
+    section: "discipline",
+    dataFile: "assets/data/discipline/AIXclassyear",
+    sorted: false,
+    showLegend: true,
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    displayPercentage: true,
+    title: "Use of Artificial Intelligence & Class Year",
+    subtitle:
+      "Whether respondents have ever used Artificial Intelligence without permission correlated with their class year.",
+    // 2023!!
   });
 
   // sota.stackedBarChart({
