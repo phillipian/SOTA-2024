@@ -1076,7 +1076,7 @@ window.onload = () => {
     title: "Ideological Diversity & Political Affiliation",
     subtitle:
       "Respondents' opinions on whether Andover's speakers are diverse in ideologies correlated with their political affiliation.",
-    // 2023!!
+    // 2024!!
   });
 
   sota.pieChart({
@@ -1112,7 +1112,7 @@ window.onload = () => {
     title: "Anti-Racism & Political Affiliation",
     subtitle:
       "Respondents' opinions on whether Andover's anti-racism work is sufficient correlated with their political affiliation.",
-    // 2023!!
+    // 2024!!
   });
 
   sota.stackedBarChart({
@@ -2124,7 +2124,7 @@ window.onload = () => {
     title: "Classroom Comfort & Gender Identity",
     subtitle:
       "Whether respondents feel gender identity is a factor in whether they are comfortable in a classroom correlated with their gender identity. Editor’s Note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary,” and “Other” gender identities have been removed in an effort to protect the complete anonymity of these respondents.",
-    // 2023!!
+    // 2024!!
   });
 
   sota.pieChart({
@@ -2148,7 +2148,7 @@ window.onload = () => {
     title: "EBI Curriculum Effectiveness for each class",
     subtitle:
       "Do you think the EBI curriculum at Andover is effective in helping students become better community members?",
-    // 2023!!
+    // 2024!!
   });
 
   sota.barChart({
@@ -2210,22 +2210,22 @@ window.onload = () => {
     title: "Residential Status & Day Student Integration",
     subtitle:
       "Respondents' opinions on whether day students integrate into campus correlated with their residential status.",
-    // 2023!!
+    // 2024!!
   });
 
-  sota.stackedBarChart({
-    section: "diversity",
-    dataFile: "assets/data/diversity/day_supportXboarding",
-    sorted: false,
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    title: "Day Student Integration by student status",
-    subtitle:
-      "Do you think day students are able to integrate enough with boarding students at Andover this year?",
-    // 2023!!
-  });
+  // sota.stackedBarChart({
+  //   section: "diversity",
+  //   dataFile: "assets/data/diversity/day_supportXboarding",
+  //   sorted: false,
+  //   showLegend: true,
+  //   labelStyle: "onBarx",
+  //   groupLabelStyle: "onBar",
+  //   displayPercentage: true,
+  //   title: "Day Student Integration by student status",
+  //   subtitle:
+  //     "Do you think day students are able to integrate enough with boarding students at Andover this year?",
+  //   // 2023!!
+  // });
 
   // ------ SEX -------
 
