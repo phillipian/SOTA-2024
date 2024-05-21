@@ -1,8 +1,6 @@
-group, Yes, "Yes, somewhat",No
-Communist,2,8,7
-Conservative,37,13,9
-Independent,34,41,26
-Liberal,37,140,137
-Libertarian,10,9,1
-Socialist,2,12,36
-Unsure,42,98,65
+group, Yes,No
+Conservative,57,10
+Liberal,77,65
+Libertarian,12,1
+Socialist,4,20
+Unsure,50,42
