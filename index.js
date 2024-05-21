@@ -2023,16 +2023,25 @@ window.onload = () => {
   //   // 2022!!
   // });
 
-  // sota.stackedBarChart({
-  //   section: "diversity",
-  //   dataFile: "assets/data/diversity/faculty_diversityXrace",
-  //   labelStyle: "onBar",
-  //   groupLabelStyle: "onBar",
-  //   showLegend: true,
-  //   title: "Faculty Diversity By Race",
-  //   subtitle: "Do you think the faculty is lacking in diversity of race?",
-  //   // 2022!!
-  // });
+    sota.barChart({
+    section: "diversity",
+    dataFile: "assets/data/diversity/faculty_diversityXrace",
+    totalResp: 170,
+    displayPercentage: true,
+    title: "Faculty Diversity by Race",
+    subtitle: "Respondents who believe that the faculty of Andover is lacking diversity in race.",
+    // 2024!!
+  });
+
+    sota.barChart({
+    section: "diversity",
+    dataFile: "assets/data/diversity/faculty_diversityXrace",
+    totalResp: 170,
+    displayPercentage: true,
+    title: "Faculty Diversity by Race",
+    subtitle: "Respondents who believe that the faculty of Andover is lacking diversity in race.",
+    // 2024!!
+  });
 
   // sota.stackedBarChart({
   //   section: "diversity",
@@ -3139,6 +3148,19 @@ window.onload = () => {
 
   sota.stackedBarChart({
     section: "wellness",
+    dataFile: "assets/data/wellness/insecureXvarsity",
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    showLegend: true,
+    labelStyle: "onBar",
+    title: "Body Insecurity & Gender",
+    subtitle:
+      "Correspondents who feel insecure about their body, physical health, and/or appearance correlated with whether they are varisty athletes. Editor’s Note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary,” and “Other” gender identities have been removed in an effort to protect the complete anonymity of these respondents.",
+    // 2023!!
+  });
+
+  sota.stackedBarChart({
+    section: "wellness",
     dataFile: "assets/data/wellness/insecurityXsocial-media",
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
@@ -3281,6 +3303,18 @@ window.onload = () => {
 
   sota.stackedBarChart({
     section: "wellness",
+    dataFile: "assets/data/wellness/mentalhealthXsykes",
+    showLegend: true,
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    title: "Mental health diagnosis & sykes",
+    subtitle:
+      "Whether respondents who have had a mental health diagnosis correlated with whether the resources at Sykes Wellness Center are sufficient.",
+    // 2023!!
+  });
+
+  sota.stackedBarChart({
+    section: "wellness",
     dataFile: "assets/data/wellness/65-happiness",
     showLegend: true,
     labelStyle: "onBar",
@@ -3302,6 +3336,18 @@ window.onload = () => {
 
   sota.stackedBarChart({
     section: "wellness",
+    dataFile: "assets/data/wellness/happyXsec",
+    showLegend: true,
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    title: "Happiness & SEC",
+    subtitle:
+      "Whether respondents are happy at Andover correlated with their perceived socioeconomic status.",
+    // 2023!!
+  });
+
+  sota.stackedBarChart({
+    section: "wellness",
     dataFile: "assets/data/wellness/happyXgpa",
     showLegend: true,
     labelStyle: "onBar",
@@ -3311,6 +3357,19 @@ window.onload = () => {
       "Whether respondents are happy at Andover correlated with their GPA. Editor's Note: Only data from the GPA range of 5.0 - 6.0 is used.",
     // 2023!!
   });
+
+  sota.stackedBarChart({
+    section: "wellness",
+    dataFile: "assets/data/wellness/happyXgrade",
+    showLegend: true,
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    title: "Happiness & Class Year",
+    subtitle:
+      "Whether respondents are happy at Andover correlated with their class year.",
+    // 2023!!
+  });
+  
 
   sota.barChart({
     section: "wellness",
@@ -3365,16 +3424,7 @@ window.onload = () => {
     // 2023!!
   });
 
-  // sota.stackedBarChart({
-  //   section: "wellness",
-  //   dataFile: "assets/data/wellness/anxietyXgender",
-  //   showLegend: true,
-  //   labelStyle: "onBar",
-  //   groupLabelStyle: "onBar",
-  //   title: "Anxiety by Gender identity",
-  //   subtitle: "Have you ever been diagnosed with anxiety?",
-  //   // 2022!!
-  // });
+
 
   // sota.bigNumber({
   //   section: "wellness",
