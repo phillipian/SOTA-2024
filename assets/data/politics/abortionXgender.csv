@@ -1,3 +1,4 @@
-group,"Yes, always","Yes, only in some circumstances",No
-Men,65.3,32.2,2.52
-Women,88.4,10.2,1.33
+group,"Woman", "Man"
+"Abort Always", 62.8, 37.2
+"Abort Sometimes", 29.6, 70.4
+"Abort No", 25, 75

@@ -1,5 +1,3 @@
-group,Yes,No
-"Asian",281,91
-"Black",116,5
-"Latine/Hispanic",85,13
-"White",354,88
+group,Asian, Black, "Indegenous Peoples of the Americas", "Latine/Hispanic", "Native Hawaiian/Pasific Islander". White
+Yes, 40.75, 17.41, 1.62, 11.67, 0.72, 49.91
+No, 51.66, 2.37, 0.95, 4.74, 0, 51.18

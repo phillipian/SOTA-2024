@@ -1,9 +1,3 @@
-group,Men,Women
-Communist,6,7
-Conservative,50,24
-Independent,57,58
-Liberal,107,217
-Libertarian,16,8
-Socialist,24,14
-Other,6,7
-Unsure,96,119
+group,"Conservative", "Liberal", "Unsure", "Libertarian", "Socialist", "Communist", Other
+Man, 21.5, 33.4, 22.6, 3.3, 3.5, 3.3, 12.4
+Woman, 7.0, 47.0, 30.1, 2.2, 3.4, 10.3

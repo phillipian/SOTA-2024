@@ -61,7 +61,22 @@ sota.sotaConfig.sections = [
   {
     slug: "drugs",
     name: "Drugs & Alcohol",
-    colors: ["#E77929","#EB8D44", "#EFA15B", "#F1AB67", "#F3B572", "#F5BF88", "#F6C99E", "#F8D6B1", "#FADCBD", "#FBE2C8", "#FDEEDE","#F8EADB", "#F3E6D7", "#E9DDD0"],
+    colors: [
+      "#E77929",
+      "#EB8D44",
+      "#EFA15B",
+      "#F1AB67",
+      "#F3B572",
+      "#F5BF88",
+      "#F6C99E",
+      "#F8D6B1",
+      "#FADCBD",
+      "#FBE2C8",
+      "#FDEEDE",
+      "#F8EADB",
+      "#F3E6D7",
+      "#E9DDD0",
+    ],
     blurb:
       "At Andover, 55.4% of students have consumed alcohol recreationally, 30.2% have used a form of marijuana, 22.8% have used an e-cigarette or vaped a nicotine-based product, 16.8% have used tobacco products, 9.3% have used an oral nicotine packet, and 5.5% have used hallucinogens or hard drugs. For students who consume alcohol or drugs recreationally on campus, 10.3% consume on a weekly basis",
   },
@@ -466,7 +481,8 @@ window.onload = () => {
     groupLabelStyle: "onBar",
     showLegend: false,
     title: "Perceived SEC & Income",
-    subtitle: "Perceived socioeconomic class compared to income of respondents.",
+    subtitle:
+      "Perceived socioeconomic class compared to income of respondents.",
     // 2024!!
   }); //better if 2 pie charts
 
@@ -498,6 +514,7 @@ window.onload = () => {
     // 2024!!
   });
 
+<<<<<<< Updated upstream
   //  sota.pieChart({
   //    section: "general",
   //    dataFile: "assets/data/campus/23-varsity",
@@ -506,6 +523,16 @@ window.onload = () => {
   //    subtitle: "Are you a varsity athlete?",
   //    // 2023!!
   //  });
+=======
+  sota.pieChart({
+    section: "general",
+    dataFile: "assets/data/general/varsity",
+    // shapeFile: "assets/svgs/varsityjacket",
+    title: "Varsity Athletics",
+    subtitle: "Are you a varsity athlete?",
+    // 2024!!
+  });
+>>>>>>> Stashed changes
 
   sota.stackedBarChart({
     section: "general",
@@ -576,23 +603,36 @@ window.onload = () => {
     title: "Gender & Affiliation",
     subtitle:
       "Gender makeup of respondents correlated with their political affliliation. Editor’s Note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary,” and “Other” gender identities have been removed in an effort to protect the complete anonymity of these respondents.",
-    // 2023!
+    // 2024!
   });
 
   sota.stackedBarChart({
     section: "politics",
-    dataFile: "assets/data/politics/affiliationXvarsity",
+    dataFile: "assets/data/diversity/leadershipXaffiliation",
+    sorted: false,
+    showLegend: true,
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
     displayPercentage: true,
-    inputIsPercentage: false,
-    sorted: false,
-    showLegend: false,
-    title: "Varsity & Affiliation",
+    title: "Leadership & Affiliation",
     subtitle:
-      "Respondents who are varsity athletes correlated with their political affliliation.",
-    // 2023!
+      "Respondents who are a student leader correlated with their political affliliation.",
+    // 2024!!
   });
+  // sota.stackedBarChart({
+  //   section: "politics",
+  //   dataFile: "assets/data/politics/affiliationXvarsity",
+  //   labelStyle: "onBar",
+  //   groupLabelStyle: "onBar",
+  //   displayPercentage: true,
+  //   inputIsPercentage: false,
+  //   sorted: false,
+  //   showLegend: false,
+  //   title: "Varsity & Affiliation",
+  //   subtitle:
+  //     "Respondents who are varsity athletes correlated with their political affliliation.",
+  //   // 2023!
+  // });
 
   sota.pieChart({
     section: "politics",
@@ -616,7 +656,22 @@ window.onload = () => {
     title: "Affiliation & Change",
     subtitle:
       "Whether respondents did or did not change beliefs by their political affiliations.",
-    // 2023!
+    // 2024!
+  });
+
+  sota.stackedBarChart({
+    section: "politics",
+    dataFile: "assets/data/politics/affiliationXcurrent",
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    displayPercentage: true,
+    inputIsPercentage: false,
+    sorted: false,
+    showLegend: false,
+    title: "Affiliation & Current Event",
+    subtitle:
+      "Respondents knowledge of current events correlated with their political affilication",
+    // 2024!
   });
 
   sota.pieChart({
@@ -652,7 +707,7 @@ window.onload = () => {
     title: "Affiliation & Censorship",
     subtitle:
       "Whether respondents felt the need to censor themselves due to their political affiliations.",
-    // 2023!
+    // 2024!!
   });
 
   sota.pieChart({
@@ -694,7 +749,7 @@ window.onload = () => {
 
   sota.stackedBarChart({
     section: "politics",
-    dataFile: "assets/data/politics/affirmativeXclassyear",
+    dataFile: "assets/data/politics/affirmative_actionXclass",
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
     displayPercentage: true,
@@ -704,7 +759,7 @@ window.onload = () => {
     title: "Affirmative Action & Class Year",
     subtitle:
       "Whether respondents support affirmative action in institutions compared to class year.",
-    // 2023!
+    // 2024!
   });
 
   sota.stackedBarChart({
@@ -719,7 +774,22 @@ window.onload = () => {
     title: "Affirmative Action & Race",
     subtitle:
       "Whether respondents support affirmative action in institutions compared to their race. Editor’s Note: Correlated statistics from respondents whose races are “Indigenous Peoples of the Americas” and “Native Hawaiian or Pacific Islander” have been removed in an effort to protect the complete anonymity of these respondents.",
-    // 2023!
+    // 2024!
+  });
+
+  sota.stackedBarChart({
+    section: "politics",
+    dataFile: "assets/data/politics/affirmative_actionXsec",
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    displayPercentage: true,
+    inputIsPercentage: false,
+    sorted: false,
+    showLegend: false,
+    title: "Affirmative Action & Socioeconomic Status",
+    subtitle:
+      "Whether respondents support affirmative action in institutions compared to their Socioeconomic Status.",
+    // 2024!
   });
 
   sota.bigNumber({
@@ -736,7 +806,11 @@ window.onload = () => {
     dataFile: "assets/data/politics/32-reverse_racism",
     title: '"Reverse Racism"',
     subtitle:
+<<<<<<< Updated upstream
       'Do you believe that white people can experience racism (colloquially known as "reverse racism")? ',
+=======
+      "Racism is defined as “a system of oppression involving the subordination of members of targeted racial groups by those who have relatively little social power” (Phillips Academy). Do you believe that white people can experience racism (colloquially known as reverse racism)? ",
+>>>>>>> Stashed changes
     // 2023!!
   });
 
@@ -752,7 +826,7 @@ window.onload = () => {
     title: "Reverse Racism & Race",
     subtitle:
       "Whether respondents believe in reverse racism compared to their race. Editor’s Note: Correlated statistics from respondents whose races are “Indigenous Peoples of the Americas” and “Native Hawaiian or Pacific Islander” have been removed in an effort to protect the complete anonymity of these respondents",
-    // 2023!
+    // 2024!
   });
 
   sota.columnChart({
@@ -760,7 +834,22 @@ window.onload = () => {
     dataFile: "assets/data/politics/33-blm",
     showPercentage: true,
     title: "Black Lives Matter",
+<<<<<<< Updated upstream
     subtitle: "Do you support the Black Lives Matter movement?",
+=======
+    subtitle:
+      'Do you support the Black Lives Matter movement — "Black Lives Matter (BLM) is an international activist movement, originating in the African-American community, that campaigns against violence and systemic racism toward black people” (Black Lives Matter, 2015).',
+    // 2023!!
+  });
+
+  sota.pieChart({
+    section: "politics",
+    dataFile: "assets/data/politics/equal-sexes",
+    title: "Equality of the Sexes",
+    subtitle:
+      "Do you support “advocacy of equality of the sexes and the establishment of the political, social, and economic rights of the female sex” (Oxford English Dictionary)?",
+    margin: margin,
+>>>>>>> Stashed changes
     // 2023!!
   });
 
@@ -804,7 +893,7 @@ window.onload = () => {
     title: "Feminism & Gender Identity",
     subtitle:
       "Whether respondents identify as feminists compared to their gender identity. Editor’s Note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary,” and “Other” gender identities have been removed in an effort to protect the complete anonymity of these respondents.",
-    // 2023!
+    // 2024!
   });
 
   sota.pieChart({
@@ -838,7 +927,7 @@ window.onload = () => {
     title: "Abortion & Gender",
     subtitle:
       "Whether respondents believe people should have the right to have an abortion correlated to their gender identity. Editor’s Note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary,” and “Other” gender identities have been removed in an effort to protect the complete anonymity of these respondents.",
-    // 2023!!
+    // 2024!!
   });
 
   sota.stackedBarChart({
@@ -894,6 +983,47 @@ window.onload = () => {
     subtitle:
       "Whether respondents believe drugs should be decriminalized compared to whether they know an incarcerated person.",
     // 2023!!
+  });
+
+  sota.stackedBarChart({
+    section: "politics",
+    dataFile: "assets/data/politics/firearmsXnet",
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    displayPercentage: true,
+    inputIsPercentage: true,
+    showLegend: true,
+    title: "Firearm ownership X net family income",
+    subtitle:
+      "Whether respondents own firearms correlated to net family income",
+    // 2024!!
+  });
+
+  sota.stackedBarChart({
+    section: "politics",
+    dataFile: "assets/data/politics/firearmsXaffilication",
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    displayPercentage: true,
+    inputIsPercentage: true,
+    showLegend: true,
+    title: "Firearm ownership X Political Affiliation",
+    subtitle:
+      "Whether respondents own firearms correlated to political affiliation",
+    // 2024!!
+  });
+
+  sota.stackedBarChart({
+    section: "politics",
+    dataFile: "assets/data/politics/firearmsXcommunity",
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    displayPercentage: true,
+    inputIsPercentage: true,
+    showLegend: true,
+    title: "Firearm ownership X Community Type",
+    subtitle: "Whether respondents own firearms correlated to Community Type",
+    // 2024!!
   });
 
   sota.customBarChart({
@@ -986,7 +1116,7 @@ window.onload = () => {
   //   dataFile: "assets/data/politics/affirmative_actionXclass",
   //   title: "Do you support affirmative action in academic institutions?",
   //   subtitle: "Percentage by Class Year",
-  //   // 2022!!
+  //   // 2024!!
   // });
 
   // sota.stackedColumnChart({
@@ -2677,8 +2807,6 @@ window.onload = () => {
     // 2024!!
   });
 
-
-
   sota.barChart({
     section: "drugs",
     dataFile: "assets/data/drugs/98-marijuana",
@@ -2781,10 +2909,11 @@ window.onload = () => {
   }); // 2024!!
 
   sota.pieChart({
-      section:"drugs",
-      dataFile: "assets/data/drugs/normalized",
-      displayPercentage: true,
-      title: "Do you think that the use of recreational drugs or alcohol is normalized at Andover?"
+    section: "drugs",
+    dataFile: "assets/data/drugs/normalized",
+    displayPercentage: true,
+    title:
+      "Do you think that the use of recreational drugs or alcohol is normalized at Andover?",
   });
 
   sota.pieChart({
