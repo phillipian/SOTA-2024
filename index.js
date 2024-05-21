@@ -514,16 +514,6 @@ window.onload = () => {
     // 2024!!
   });
 
-<<<<<<< Updated upstream
-  //  sota.pieChart({
-  //    section: "general",
-  //    dataFile: "assets/data/campus/23-varsity",
-  //    // shapeFile: "assets/svgs/varsityjacket",
-  //    title: "Varsity Athletics",
-  //    subtitle: "Are you a varsity athlete?",
-  //    // 2023!!
-  //  });
-=======
   sota.pieChart({
     section: "general",
     dataFile: "assets/data/general/varsity",
@@ -532,7 +522,6 @@ window.onload = () => {
     subtitle: "Are you a varsity athlete?",
     // 2024!!
   });
->>>>>>> Stashed changes
 
   sota.stackedBarChart({
     section: "general",
@@ -608,7 +597,7 @@ window.onload = () => {
 
   sota.stackedBarChart({
     section: "politics",
-    dataFile: "assets/data/diversity/leadershipXaffiliation",
+    dataFile: "assets/data/politics/leadershipXaffiliation",
     sorted: false,
     showLegend: true,
     labelStyle: "onBar",
@@ -670,7 +659,7 @@ window.onload = () => {
     showLegend: false,
     title: "Affiliation & Current Event",
     subtitle:
-      "Respondents knowledge of current events correlated with their political affilication",
+      "Respondents knowledge of current events correlated with their political affiliation",
     // 2024!
   });
 
@@ -806,11 +795,7 @@ window.onload = () => {
     dataFile: "assets/data/politics/32-reverse_racism",
     title: '"Reverse Racism"',
     subtitle:
-<<<<<<< Updated upstream
       'Do you believe that white people can experience racism (colloquially known as "reverse racism")? ',
-=======
-      "Racism is defined as “a system of oppression involving the subordination of members of targeted racial groups by those who have relatively little social power” (Phillips Academy). Do you believe that white people can experience racism (colloquially known as reverse racism)? ",
->>>>>>> Stashed changes
     // 2023!!
   });
 
@@ -834,9 +819,6 @@ window.onload = () => {
     dataFile: "assets/data/politics/33-blm",
     showPercentage: true,
     title: "Black Lives Matter",
-<<<<<<< Updated upstream
-    subtitle: "Do you support the Black Lives Matter movement?",
-=======
     subtitle:
       'Do you support the Black Lives Matter movement — "Black Lives Matter (BLM) is an international activist movement, originating in the African-American community, that campaigns against violence and systemic racism toward black people” (Black Lives Matter, 2015).',
     // 2023!!
@@ -849,7 +831,6 @@ window.onload = () => {
     subtitle:
       "Do you support “advocacy of equality of the sexes and the establishment of the political, social, and economic rights of the female sex” (Oxford English Dictionary)?",
     margin: margin,
->>>>>>> Stashed changes
     // 2023!!
   });
 
@@ -987,7 +968,7 @@ window.onload = () => {
 
   sota.stackedBarChart({
     section: "politics",
-    dataFile: "assets/data/politics/firearmsXnet",
+    dataFile: "assets/data/politics/firearmXnet",
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
     displayPercentage: true,
@@ -1001,7 +982,7 @@ window.onload = () => {
 
   sota.stackedBarChart({
     section: "politics",
-    dataFile: "assets/data/politics/firearmsXaffilication",
+    dataFile: "assets/data/politics/firearmXaffiliation",
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
     displayPercentage: true,
@@ -1517,10 +1498,10 @@ window.onload = () => {
   // --- SCHOOL!! ---
   sota.bigNumber({
     section: "school",
-    number: "5.41",
+    number: "5.42",
     title: "Overall Average GPA",
     subtitle:
-      "average rounded Winter Term GPA, a 0.06 increase from 2022 (last year).",
+      "average rounded Winter Term GPA, a 0.1 increase from 2023 (last year).",
     // 2023!!
   });
 
@@ -1529,7 +1510,7 @@ window.onload = () => {
     dataFile: "assets/data/school/111-gpa",
     maxVal: 156,
     title: "GPA",
-    subtitle: "What was your rounded Winter 2022-2023 GPA?",
+    subtitle: "What was your rounded Winter 2023-2024 GPA?",
     // 2023!!
   });
 
@@ -1554,6 +1535,19 @@ window.onload = () => {
     // 2023!!
   });
 
+ sota.stackedBarChart({
+    section: "school",
+    dataFile: "assets/data/school/GPAxgender",
+    sorted: false,
+    showLegend: true,
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    displayPercentage: true,
+    title: "GPA and Gender",
+    subtitle: "Editor’s note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary.” and “Other” have been removed in an effort to protect the complete anonymity of these respondents."
+    // 2023!!
+  });
+
   sota.stackedBarChart({
     section: "school",
     dataFile: "assets/data/school/GPAxsleep",
@@ -1563,6 +1557,7 @@ window.onload = () => {
     groupLabelStyle: "onBar",
     displayPercentage: true,
     title: "GPA and Sleep",
+
     // 2023!!
   });
 
@@ -3136,6 +3131,19 @@ window.onload = () => {
     displayPercentage: true,
     totalResp: 779,
     title: "What social media platforms do you use at Andover?",
+    // 2023!!
+  });
+
+
+  sota.stackedBarChart({
+    section: "wellness",
+    dataFile: "assets/data/wellness/socialmediaXgrade",
+    showLegend: true,
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    title: "Social Media & Grade",
+    subtitle:
+      "Platforms that respondents use by their class year.",
     // 2023!!
   });
 
